@@ -182,7 +182,7 @@
 </blockquote>
 <a id="more"></a>
 
-<p><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Node.js-v13.6.0-brightgreen" alt="Node.js version"></a>  <a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1023025597810528" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/npm%20package-v6.13.4-green" alt="NPM version"></a>  <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Hexo-v4.2.0-red" alt="Hexo version"></a>  <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/NexT-v7.7.0-blue" alt="NexT version"></a>  <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-orange" alt="License"></a></p>
+<p><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Node.js-v13.6.0-brightgreen" alt="Node.js version"></a>  <a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1023025597810528" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/npm%20package-v6.13.4-green" alt="NPM version"></a>  <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Hexo-v4.2.1-red" alt="Hexo version"></a>  <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/NexT-v7.7.0-blue" alt="NexT version"></a>  <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-orange" alt="License"></a></p>
 <p>Github徽章生成</p>
 <ul>
 <li><a href="https://shields.io/" target="_blank" rel="noopener">shields.io官网</a></li>
@@ -209,7 +209,7 @@
 
 <h3 id="站点配置文件"><a href="#站点配置文件" class="headerlink" title="站点配置文件"></a>站点配置文件</h3><p>这里是下面配置介绍的环境版本，可能与本博客搭建环境稍有不同：</p>
 <blockquote>
-<p>Hexo: <code>v4.2.0</code><br>NexT: <code>v7.8.0</code></p>
+<p>Hexo: <code>v4.2.1</code><br>NexT: <code>v7.8.0</code></p>
 </blockquote>
 <ul>
 <li><a href="https://www.xiaocoder.com/2018/07/07/hexo-blog-basis-guide/" target="_blank" rel="noopener">站点配置文件 - 3.2 目录介绍</a></li>
