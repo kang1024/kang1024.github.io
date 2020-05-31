@@ -77,77 +77,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog-Test</title>
+    <title>Hexo博客测试预览</title>
     <url>/d87f7e0c/</url>
     <content><![CDATA[<p>前言</p>
 <blockquote>
-<p>这里一个<code>Blog-Test</code>文件，方便预览博客发布效果</p>
+<p>这里是一个<code>基于Hexo的博客</code>测试文件，方便预览博客发布效果</p>
 </blockquote>
 <a id="more"></a>
 
 <ul>
-<li>！！！想要预览效果的内容都写在这里吧！！！</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>排序方法</th>
-<th>平均情况</th>
-<th>最好情况</th>
-<th>最坏情况</th>
-<th>辅助空间</th>
-<th>稳定性</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>简单选择</td>
-<td>O(n^2)</td>
-<td>O(n^2)</td>
-<td>O(n^2)</td>
-<td>O(1)</td>
-<td>稳定</td>
-</tr>
-<tr>
-<td>直接插入</td>
-<td>O(n^2)</td>
-<td>O(n)</td>
-<td>O(n^2)</td>
-<td>O(1)</td>
-<td>稳定</td>
-</tr>
-<tr>
-<td>希尔排序</td>
-<td>O(n*logn)~O(n^2)</td>
-<td>O(n^1.3)</td>
-<td>O(n^2)</td>
-<td>O(1)</td>
-<td>不稳定</td>
-</tr>
-<tr>
-<td>堆排序</td>
-<td>O(n*logn)</td>
-<td>O(n*logn)</td>
-<td>O(n*logn)</td>
-<td>O(1)</td>
-<td>不稳定</td>
-</tr>
-<tr>
-<td>归并排序</td>
-<td>O(n*logn)</td>
-<td>O(n*logn)</td>
-<td>O(n*logn)</td>
-<td>O(n)</td>
-<td>不稳定</td>
-</tr>
-<tr>
-<td><strong>快速排序</strong></td>
-<td>O(n*logn)</td>
-<td>O(n*logn)</td>
-<td>O(n^2)</td>
-<td>O(n*logn)~O(n)</td>
-<td>不稳定</td>
-</tr>
-</tbody></table>
+<li><p>想要预览效果的内容都写在这里吧</p>
 <table>
 <thead>
 <tr>
@@ -167,10 +106,73 @@
 <td align="center">内容</td>
 </tr>
 </tbody></table>
+</li>
+<li><p>常见排序算法</p>
+<table>
+<thead>
+<tr>
+<th align="center">排序方法</th>
+<th>平均情况</th>
+<th>最好情况</th>
+<th>最坏情况</th>
+<th>辅助空间</th>
+<th>稳定性</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">简单选择</td>
+<td>O(n^2)</td>
+<td>O(n^2)</td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+<td>稳定</td>
+</tr>
+<tr>
+<td align="center">直接插入</td>
+<td>O(n^2)</td>
+<td>O(n)</td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+<td>稳定</td>
+</tr>
+<tr>
+<td align="center">希尔排序</td>
+<td>O(n*logn)~O(n^2)</td>
+<td>O(n^1.3)</td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+<td>不稳定</td>
+</tr>
+<tr>
+<td align="center">堆排序</td>
+<td>O(n*logn)</td>
+<td>O(n*logn)</td>
+<td>O(n*logn)</td>
+<td>O(1)</td>
+<td>不稳定</td>
+</tr>
+<tr>
+<td align="center">归并排序</td>
+<td>O(n*logn)</td>
+<td>O(n*logn)</td>
+<td>O(n*logn)</td>
+<td>O(n)</td>
+<td>不稳定</td>
+</tr>
+<tr>
+<td align="center"><strong>快速排序</strong></td>
+<td>O(n*logn)</td>
+<td>O(n*logn)</td>
+<td>O(n^2)</td>
+<td>O(n*logn)~O(n)</td>
+<td>不稳定</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
 ]]></content>
       <tags>
         <tag>hexo</tag>
-        <tag>test</tag>
       </tags>
   </entry>
   <entry>
@@ -182,7 +184,7 @@
 </blockquote>
 <a id="more"></a>
 
-<p><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Node.js-v13.6.0-brightgreen" alt="Node.js version"></a>  <a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1023025597810528" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/npm%20package-v6.13.4-green" alt="NPM version"></a>  <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Hexo-v4.2.1-red" alt="Hexo version"></a>  <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/NexT-v7.7.0-blue" alt="NexT version"></a>  <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-orange" alt="License"></a></p>
+<p><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Node.js-v13.x.x-brightgreen" alt="Node.js version"></a>  <a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1023025597810528" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/npm%20package-v6.x.x-green" alt="NPM version"></a>  <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Hexo-v4.x.x-red" alt="Hexo version"></a>  <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/NexT-v8.x.x-blue" alt="NexT version"></a>  <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-orange" alt="License"></a></p>
 <p>Github徽章生成</p>
 <ul>
 <li><a href="https://shields.io/" target="_blank" rel="noopener">shields.io官网</a></li>
@@ -228,7 +230,7 @@
 </details>
 ]]></content>
       <categories>
-        <category>工具文档</category>
+        <category>Hexo博客</category>
       </categories>
       <tags>
         <tag>hexo</tag>
@@ -236,7 +238,143 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo博客的NexT主题美化和功能增强</title>
+    <title>Hexo博客的NexT主题美化和功能增强(二)</title>
+    <url>/21493ef0/</url>
+    <content><![CDATA[<p>前言</p>
+<blockquote>
+<p>这里简单记录下<code>Hexo博客的NexT主题</code>美化和功能增强</p>
+</blockquote>
+<a id="more"></a>
+
+<div class="note info"><p>Hexo博客的NexT主题美化和功能增强(一) <a href="https://blog.kang1024.tk/b7a7c499/">去看看</a></p>
+</div>
+
+<p><strong>环境版本说明</strong></p>
+<blockquote>
+<p>Hexo: <code>v4.2.1</code><br>NexT: <code>v8.0.0_rc.2</code></p>
+</blockquote>
+<h3 id="标签插件应用"><a href="#标签插件应用" class="headerlink" title="标签插件应用"></a>标签插件应用</h3><ul>
+<li><a href="http://nobug.live/posts/6b216eb7/" target="_blank" rel="noopener">Hexo-Next 主题内置标签的使用</a></li>
+</ul>
+<div class="note info"><p>完整标签列表：详见<a href="https://hexo.io/zh-cn/docs/tag-plugins.html" target="_blank" rel="noopener">Hexo官网</a></p>
+</div>
+
+<ul>
+<li><p>文本居中引用，使用<code>centerquote</code>简写<code>cq</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 标签别名 --&gt;</span><br><span class="line">&#123;% cq %&#125;</span><br><span class="line">人的一切痛苦，本质上都是对自己的无能的愤怒。</span><br><span class="line">——王小波</span><br><span class="line">&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<p>效果展示：</p>
+<!-- 标签别名 -->
+<blockquote class="blockquote-center">
+<i class="fa fa-quote-left"></i>
+<p>人的一切痛苦，本质上都是对自己的无能的愤怒。<br>——王小波</p>
+
+<i class="fa fa-quote-right"></i>
+</blockquote>
+</li>
+<li><p><code>Bootstrap Callout</code>的使用方法</p>
+</li>
+</ul>
+<p>修改主题配置<code>_config.yml</code>，有几种style可选，这里我选择<code>flat</code>，设置图标显示<code>icons: true</code></p>
+<figure class="highlight diff"><figcaption><span>themes/next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"># Note tag (bs-callout)</span><br><span class="line">note:</span><br><span class="line">  # Note tag style values:</span><br><span class="line">  #  - simple    bs-callout old alert style. Default.</span><br><span class="line">  #  - modern    bs-callout new (v2-v3) alert style.</span><br><span class="line">  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.</span><br><span class="line">  #  - disabled  disable all CSS styles import of note tag.</span><br><span class="line"><span class="deletion">-  style: simple</span></span><br><span class="line"><span class="addition">+   style: flat</span></span><br><span class="line"><span class="deletion">-  icons: false</span></span><br><span class="line"><span class="addition">+  icons: true</span></span><br><span class="line">  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).</span><br><span class="line">  # Offset also applied to label tag variables. This option can work with disabled note tag.</span><br><span class="line">  light_bg_offset: 0</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% note class_name %&#125;</span><br><span class="line">这是一个 class_name 批注。</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<p>其中，<code>class_name</code>可以是以下列表中的一个值：</p>
+<blockquote>
+<p><code>default</code><br><code>primary</code><br><code>success</code><br><code>info</code><br><code>warning</code><br><code>danger</code></p>
+</blockquote>
+<p>效果展示：</p>
+<div class="note default"><p>这是一个 default 批注。</p>
+</div>
+
+<div class="note primary"><p>这是一个 primary 批注。</p>
+</div>
+
+<div class="note success"><p>这是一个 success 批注。</p>
+</div>
+
+<div class="note info"><p>这是一个 info 批注。</p>
+</div>
+
+<div class="note warning"><p>这是一个 warning 批注。</p>
+</div>
+
+<div class="note danger"><p>这是一个 danger 批注。</p>
+</div>
+
+<h3 id="添加颜色块和边框颜色"><a href="#添加颜色块和边框颜色" class="headerlink" title="添加颜色块和边框颜色"></a>添加颜色块和边框颜色</h3><p>在主题的<code>custom.styl</code>文件中新增css样式配置，修改如下：</p>
+<details>
+<summary>点击查看</summary>
+<figure class="highlight styl"><figcaption><span>themes\next\source\css\_custom\custom.styl</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">// 颜色块红色</span></span><br><span class="line">span<span class="selector-id">#inline-red</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#df3e3e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 颜色块黄色</span></span><br><span class="line">span<span class="selector-id">#inline-yellow</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 颜色块绿色</span></span><br><span class="line">span<span class="selector-id">#inline-green</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 颜色块蓝色</span></span><br><span class="line">span<span class="selector-id">#inline-blue</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 颜色块紫色</span></span><br><span class="line">span<span class="selector-id">#inline-purple</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框红色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-red</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#df3e3e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框黄色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-yellow</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框绿色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-green</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框蓝色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-blue</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框紫色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-purple</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框红色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-red</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#df3e3e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框黄色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-yellow</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框绿色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-green</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框蓝色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-blue</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框紫色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-purple</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框红色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-red</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#df3e3e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框黄色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-yellow</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框绿色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-green</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框蓝色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-blue</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框紫色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-purple</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+
+<p>支持颜色为：<code>red</code>、<code>yellow</code>、<code>green</code>、<code>blue</code>、<code>purple</code>，也可自己根据配置格式增加</p>
+<table>
+<thead>
+<tr>
+<th>描述</th>
+<th>语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>颜色块</td>
+<td><code>&lt;span id=&quot;inline-red&quot;&gt; 这里是红色块 &lt;/span&gt;</code></td>
+</tr>
+<tr>
+<td>颜色块</td>
+<td><code>&lt;span id=&quot;inline-blue&quot;&gt; 这里是蓝色块 &lt;/span&gt;</code></td>
+</tr>
+<tr>
+<td>左侧边框</td>
+<td><code>&lt;p id=&quot;div-border-left-yellow&quot;&gt; 这里是黄色左侧边框 &lt;/p&gt;</code></td>
+</tr>
+<tr>
+<td>右侧边框</td>
+<td><code>&lt;p id=&quot;div-border-right-green&quot;&gt; 这里是绿色右侧边框 &lt;/p&gt;</code></td>
+</tr>
+<tr>
+<td>上侧边框</td>
+<td><code>&lt;p id=&quot;div-border-top-purple&quot;&gt; 这里是紫色上侧边框 &lt;/p&gt;</code></td>
+</tr>
+</tbody></table>
+<p>效果展示：<br><span id="inline-red"> 这里是红色块 </span><br><span id="inline-blue"> 这里是蓝色块 </span></p>
+<p id="div-border-left-yellow"> 这里是黄色左侧边框 </p>
+<p id="div-border-right-green"> 这里是绿色右侧边框 </p>
+<p id="div-border-top-purple"> 这里是紫色上侧边框 </p>
+
+<h3 id="动态背景和鼠标特效"><a href="#动态背景和鼠标特效" class="headerlink" title="动态背景和鼠标特效"></a>动态背景和鼠标特效</h3><h4 id="动态背景"><a href="#动态背景" class="headerlink" title="动态背景"></a>动态背景</h4><p>修改主题配置<code>_config.yml</code>，开启动态背景特效<code>canvas_nest: enable: true</code></p>
+<figure class="highlight diff"><figcaption><span>themes/next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">canvas_nest:</span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="addition">+  enable: true</span></span><br><span class="line">  onmobile: true # Display on mobile or not</span><br><span class="line">  color: "0,0,255" # RGB values, use `,` to separate</span><br><span class="line">  opacity: 0.5 # The opacity of line: 0~1</span><br><span class="line">  z<span class="comment">Index: -1 # z-index property of the background</span></span><br><span class="line">  count: 99 # The number of lines</span><br></pre></td></tr></table></figure>
+<p>在<code>themes/next/layout/_layout.njk</code>(<code>7.x</code>文件后缀为<code>.swig</code>)中添加代码，注意，添加代码需要<code>&lt;/body&gt;</code>之前：</p>
+<figure class="highlight diff"><figcaption><span>themes/next/layout/_layout.njk</span></figcaption><table><tr><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">  ...</span><br><span class="line"><span class="addition">+  &#123;% if theme.canvas_nest %&#125;</span></span><br><span class="line"><span class="addition">+    &lt;script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="addition">+  &#123;% endif %&#125;</span></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="鼠标特效"><a href="#鼠标特效" class="headerlink" title="鼠标特效"></a>鼠标特效</h4><ul>
+<li><a href="https://hasaik.com/posts/9c9b482b.html" target="_blank" rel="noopener">Hexo博客+Next主题鼠标点击特效</a></li>
+</ul>
+<h3 id="其他配置修改"><a href="#其他配置修改" class="headerlink" title="其他配置修改"></a>其他配置修改</h3><h4 id="修改单引号-包含的代码块字体颜色"><a href="#修改单引号-包含的代码块字体颜色" class="headerlink" title="修改单引号(``)包含的代码块字体颜色"></a>修改单引号(``)包含的代码块字体颜色</h4><figure class="highlight diff"><figcaption><span>themes/next/source/css/_variables/base.styl</span></figcaption><table><tr><td class="code"><pre><span class="line">// Code &amp; Code Blocks</span><br><span class="line">// --------------------------------------------------</span><br><span class="line">$code-font-family               = $font-family-monospace;</span><br><span class="line">$code-border-radius             = 3px;</span><br><span class="line"><span class="deletion">- $code-foreground                = $black-light;</span></span><br><span class="line"><span class="addition">+ $code-foreground                = #005CAF;</span></span><br><span class="line">$code-background                = $gainsboro;</span><br></pre></td></tr></table></figure>
+
+<h4 id="修改hexo-n-file创建文件模板"><a href="#修改hexo-n-file创建文件模板" class="headerlink" title="修改hexo n file创建文件模板"></a>修改<code>hexo n file</code>创建文件模板</h4><figure class="highlight diff"><figcaption><span>scaffolds/post.md</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">---</span></span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line"><span class="addition">+ categories:</span></span><br><span class="line">tags:</span><br><span class="line"><span class="addition">+ comments: false</span></span><br><span class="line"><span class="addition">+ abbrlink:</span></span><br><span class="line"><span class="comment">---</span></span><br></pre></td></tr></table></figure>
+<h3 id="待美化增强功能-amp-TODO"><a href="#待美化增强功能-amp-TODO" class="headerlink" title="待美化增强功能&amp;TODO"></a>待美化增强功能&amp;TODO</h3><ul>
+<li><input disabled="" type="checkbox"> 支持文章加密访问</li>
+<li><input disabled="" type="checkbox"> 支持数学公式渲染</li>
+<li><input disabled="" type="checkbox"> 整理NexT主题自定义修改</li>
+<li><input disabled="" type="checkbox"> 整理NexT主题升级记录</li>
+</ul>
+<h3 id="更多美化增强参考"><a href="#更多美化增强参考" class="headerlink" title="更多美化增强参考"></a>更多美化增强参考</h3><ul>
+<li><p><a href="https://www.chingow.cn/posts/c7372a12.html" target="_blank" rel="noopener">Hexo+NexT(v7.0+) 搭建博客：主题美化</a><br>Hexo: <code>v3.8.0</code>, NexT: <code>v7.1.0</code><br><a href="https://github.com/chingov/hexo-blog-chingow.git" target="_blank" rel="noopener">chingow 博客源码</a></p>
+</li>
+<li><p><a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">Hexo 搭建个人博客系列：写作技巧篇</a><br>Hexo: <code>v3.7.1</code>, NexT: <code>v6.4.2</code><br><a href="https://github.com/Coodool/hexo-blog-yearito.git" target="_blank" rel="noopener">yearito 博客源码</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Hexo博客</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo博客的NexT主题美化和功能增强(一)</title>
     <url>/b7a7c499/</url>
     <content><![CDATA[<p>前言</p>
 <blockquote>
@@ -244,10 +382,10 @@
 </blockquote>
 <a id="more"></a>
 
-<h3 id="环境版本说明"><a href="#环境版本说明" class="headerlink" title="环境版本说明"></a>环境版本说明</h3><ul>
-<li>Hexo: <code>v4.2.1</code></li>
-<li>NexT: <code>v7.7.0</code></li>
-</ul>
+<p><strong>环境版本说明</strong></p>
+<blockquote>
+<p>Hexo: <code>v4.2.1</code><br>NexT: <code>v8.0.0_rc.2</code></p>
+</blockquote>
 <h3 id="安装NexT主题"><a href="#安装NexT主题" class="headerlink" title="安装NexT主题"></a>安装NexT主题</h3><p>NexT主题<a href="https://theme-next.org/" target="_blank" rel="noopener">下载</a><br>下载完成后，解压至<code>themes/next</code>目录下，或者直接拉取Next主题的Github仓库源码</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next.git themes/next</span><br></pre></td></tr></table></figure>
 
@@ -262,10 +400,13 @@
 <li><a href="http://yearito.cn/posts/hexo-advanced-settings.html" target="_blank" rel="noopener">站点运行时间统计</a></li>
 <li><a href="https://blog.csdn.net/weixin_41287260/article/details/103050423" target="_blank" rel="noopener">网站运行时间</a></li>
 </ul>
-<p>自定义修改如下：</p>
+<p>添加网站运行时长修改如下：</p>
 <figure class="highlight yml"><figcaption><span>themes/next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">footer:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="comment"># site running time</span></span><br><span class="line">  <span class="attr">running_time:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># create time of your site</span></span><br><span class="line">    <span class="attr">create:</span> <span class="number">20191231</span></span><br><span class="line">    <span class="comment"># color of number</span></span><br><span class="line">    <span class="attr">color:</span> <span class="string">"#1890ff"</span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight html"><figcaption><span>themes/next/layout/_custom/custom.swig</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;# 网站运行时间统计 #&#125;</span><br><span class="line">&#123;%- if theme.footer.running_time.enable %&#125;</span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/moment-precise-range-plugin@1.3.0/moment-precise-range.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="actionscript">    <span class="comment">// 实现高位自动补0，num传入的数字，n需要的字符长度</span></span></span><br><span class="line"><span class="actionscript">    <span class="function"><span class="keyword">function</span> <span class="title">PrefixInteger</span><span class="params">(num, n = 2)</span> </span>&#123;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">return</span> (<span class="built_in">Array</span>(n).join(<span class="number">0</span>) + num).slice(-n);</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="actionscript">    <span class="function"><span class="keyword">function</span> <span class="title">GetRunningTime</span><span class="params">()</span> </span>&#123;</span></span><br><span class="line"><span class="actionscript">      <span class="keyword">var</span> timesDiff = moment.preciseDiff(moment(), moment(&#123;&#123; theme.footer.running_time.create &#125;&#125;, <span class="string">"YYYYMMDD"</span>), <span class="literal">true</span>);</span></span><br><span class="line"><span class="actionscript">      <span class="keyword">var</span> strText = <span class="string">""</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.years).toString() + <span class="string">" 年"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.months).toString() + <span class="string">" 月"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.days).toString() + <span class="string">" 天"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.hours).toString() + <span class="string">" 时"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.minutes).toString() + <span class="string">" 分"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.seconds).toString() + <span class="string">" 秒"</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="handlebars"><span class="xml">      strText = strText.replace(/\d+/g, '<span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">"color:</span></span></span><span class="template-variable">&#123;&#123; theme.footer.running_time.color &#125;&#125;</span><span class="xml"><span class="tag"><span class="string">"</span>&gt;</span>$&amp;<span class="tag">&lt;/<span class="name">span</span>&gt;</span>');</span></span></span><br><span class="line"><span class="actionscript">      element.innerHTML = <span class="string">"本站已安全运行"</span> + strText;</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="javascript">    <span class="keyword">var</span> element = <span class="built_in">document</span>.createElement(<span class="string">"div"</span>);</span></span><br><span class="line"><span class="actionscript">    <span class="comment">// 插入到theme(主题)节点后</span></span></span><br><span class="line"><span class="actionscript">    <span class="comment">// var select = document.querySelector(".theme-info");</span></span></span><br><span class="line"><span class="actionscript">    <span class="comment">// document.querySelector(".footer-inner").insertBefore(element, select.nextSibling);</span></span></span><br><span class="line"></span><br><span class="line"><span class="actionscript">    <span class="comment">// 插入到最后一个节点后</span></span></span><br><span class="line"><span class="javascript">    <span class="built_in">document</span>.querySelector(<span class="string">".footer-inner"</span>).appendChild(element);</span></span><br><span class="line">    GetRunningTime();</span><br><span class="line"><span class="actionscript">    setInterval(<span class="string">"GetRunningTime()"</span>, <span class="number">1000</span>);</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
+<p>如果<code>themes/next/layout/layout/_custom/custom.njk</code>(<code>7.x</code>文件后缀为<code>.swig</code>)不存在，需按照对应路径创建，然后在<code>_layout.njk</code>中添加包含：</p>
+<figure class="highlight diff"><figcaption><span>themes/next/layout/_layout.njk</span></figcaption><table><tr><td class="code"><pre><span class="line">  &#123;% include '_third-party/math/index.njk' %&#125;</span><br><span class="line">  &#123;% include '_third-party/quicklink.njk' %&#125;</span><br><span class="line"><span class="addition">+  &#123;% include '_custom/custom.njk' %&#125;</span></span><br><span class="line"></span><br><span class="line">  &#123;&#123;- next_inject('bodyEnd') &#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>在<code>custom.njk</code>中添加如下代码：</p>
+<figure class="highlight html"><figcaption><span>themes/next/layout/_custom/custom.njk</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;# 网站运行时间统计 #&#125;</span><br><span class="line">&#123;%- if theme.footer.running_time.enable %&#125;</span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/moment-precise-range-plugin@1.3.0/moment-precise-range.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="actionscript">    <span class="comment">// 实现高位自动补0，num传入的数字，n需要的字符长度</span></span></span><br><span class="line"><span class="actionscript">    <span class="function"><span class="keyword">function</span> <span class="title">PrefixInteger</span><span class="params">(num, n = 2)</span> </span>&#123;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">return</span> (<span class="built_in">Array</span>(n).join(<span class="number">0</span>) + num).slice(-n);</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="actionscript">    <span class="function"><span class="keyword">function</span> <span class="title">GetRunningTime</span><span class="params">()</span> </span>&#123;</span></span><br><span class="line"><span class="actionscript">      <span class="keyword">var</span> timesDiff = moment.preciseDiff(moment(), moment(&#123;&#123; theme.footer.running_time.create &#125;&#125;, <span class="string">"YYYYMMDD"</span>), <span class="literal">true</span>);</span></span><br><span class="line"><span class="actionscript">      <span class="keyword">var</span> strText = <span class="string">""</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.years).toString() + <span class="string">" 年"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.months).toString() + <span class="string">" 月"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.days).toString() + <span class="string">" 天"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.hours).toString() + <span class="string">" 时"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.minutes).toString() + <span class="string">" 分"</span>;</span></span><br><span class="line"><span class="actionscript">      strText += <span class="string">" "</span> + PrefixInteger(timesDiff.seconds).toString() + <span class="string">" 秒"</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="handlebars"><span class="xml">      strText = strText.replace(/\d+/g, '<span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">"color:</span></span></span><span class="template-variable">&#123;&#123; theme.footer.running_time.color &#125;&#125;</span><span class="xml"><span class="tag"><span class="string">"</span>&gt;</span>$&amp;<span class="tag">&lt;/<span class="name">span</span>&gt;</span>');</span></span></span><br><span class="line"><span class="actionscript">      element.innerHTML = <span class="string">"本站已安全运行"</span> + strText;</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="javascript">    <span class="keyword">var</span> element = <span class="built_in">document</span>.createElement(<span class="string">"div"</span>);</span></span><br><span class="line"><span class="actionscript">    <span class="comment">// 插入到theme(主题)节点后</span></span></span><br><span class="line"><span class="actionscript">    <span class="comment">// var select = document.querySelector(".theme-info");</span></span></span><br><span class="line"><span class="actionscript">    <span class="comment">// document.querySelector(".footer-inner").insertBefore(element, select.nextSibling);</span></span></span><br><span class="line"></span><br><span class="line"><span class="actionscript">    <span class="comment">// 插入到最后一个节点后</span></span></span><br><span class="line"><span class="javascript">    <span class="built_in">document</span>.querySelector(<span class="string">".footer-inner"</span>).appendChild(element);</span></span><br><span class="line">    GetRunningTime();</span><br><span class="line"><span class="actionscript">    setInterval(<span class="string">"GetRunningTime()"</span>, <span class="number">1000</span>);</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="代码块进阶用法"><a href="#代码块进阶用法" class="headerlink" title="代码块进阶用法"></a>代码块进阶用法</h3><ul>
 <li><a href="http://yearito.cn/posts/hexo-writing-skills.html#%E4%BB%A3%E7%A0%81%E5%9D%97%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95" target="_blank" rel="noopener">写作技巧篇：代码块进阶用法</a></li>
@@ -292,12 +433,14 @@
 <li><a href="https://hexo.imydl.tech/archives/6742.html" target="_blank" rel="noopener">Hexo下表格的美化和优化</a></li>
 <li><input disabled="" type="checkbox"> 表格美化，博客留言回复<a href="https://www.chingow.cn/posts/e824570.html" target="_blank" rel="noopener">点这里</a></li>
 </ul>
-<p>如果<code>themes\next\source\css\_custom\custom.styl</code>不存在，需按照对应路径创建，然后在<code>main.styl</code>中添加包含，下面配置只能实现表头和第一列单元格内容不换行，<code>:---:</code>居中无法生效，配置<code>text-align: center;</code>后支持表格全局居中并且会影响代码块的对齐方式，这里不做配置，使用默认左对齐的方式，当需要居中时局部处理。</p>
+<p>如果<code>themes\next\source\css\_custom\custom.styl</code>不存在，需按照对应路径创建，然后在<code>main.styl</code>中添加包含：</p>
+<figure class="highlight diff"><figcaption><span>themes/next/source/css/main.styl</span></figcaption><table><tr><td class="code"><pre><span class="line">// Custom Layer</span><br><span class="line">// --------------------------------------------------</span><br><span class="line">for $inject_style in hexo-config('injects.style')</span><br><span class="line">  @import $inject_style;</span><br><span class="line"></span><br><span class="line"><span class="addition">+ @import "_custom/custom.styl";</span></span><br></pre></td></tr></table></figure>
+<p>在<code>custom.styl</code>中添加如下代码：</p>
 <figure class="highlight styl"><figcaption><span>themes\next\source\css\_custom\custom.styl</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">// Custom styles.</span></span><br><span class="line"></span><br><span class="line"><span class="selector-tag">table</span> <span class="selector-tag">th</span> &#123;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap; <span class="comment">// 表格表头单元格内容不换行</span></span><br><span class="line">  <span class="comment">// text-align: center !important; // 表格表头内容居中，加上!important避免被Markdown样式覆盖</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">table</span> <span class="selector-tag">td</span> &#123;</span><br><span class="line">  <span class="comment">// text-align: center !important; //表格单元格内容不换行，加上!important避免被Markdown样式覆盖</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">table</span> <span class="selector-tag">td</span>:nth-child(<span class="number">1</span>) &#123;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap; <span class="comment">// 表格第一列单元格内容不换行</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight diff"><figcaption><span>themes/next/source/css/main.styl</span></figcaption><table><tr><td class="code"><pre><span class="line">// Custom Layer</span><br><span class="line">// --------------------------------------------------</span><br><span class="line">for $inject_style in hexo-config('injects.style')</span><br><span class="line">  @import $inject_style;</span><br><span class="line"></span><br><span class="line"><span class="addition">+ @import "_custom/custom";</span></span><br></pre></td></tr></table></figure>
 
-<p>markdown语法<code>:---:</code>表格内容居中，NexT(<code>v7.7.0</code>)主题不生效，所以使用html语法实现左中右对齐方式。<br>使用html语法实现左中右对齐方式：</p>
+
+<p>markdown语法<code>:---:</code>表格内容居中，NexT(<code>v7.7.0</code>和<code>v7.8.0</code>)主题不生效，所以使用html语法实现左中右对齐方式：<br><strong>注：</strong>从<code>v7.7.0</code>升级到<code>v8.x</code>后，<code>:---:</code>语法效果显示正常。</p>
 <table>
 <thead>
 <tr>
@@ -394,7 +537,7 @@ table th:nth-of-type(1) {
 <li><a href="https://www.chingow.cn/posts/c7372a12.html" target="_blank" rel="noopener">Font 修改字体</a></li>
 </ul>
 <p>默认字体为<code>Lato</code>，可根据个人喜好选择字体，例如：很有科技感的字体<code>Monda</code>，下面就将它应用到自己的博客。<br>在主题配置文件<code>_config.yml</code>中修改字体配置：<strong>(如果修改没有效果，需要安装配置的字体)</strong></p>
-<figure class="highlight diff"><figcaption><span>themes/next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">font:</span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="addition">+  enable: true</span></span><br><span class="line"></span><br><span class="line">  global:</span><br><span class="line">    external: true</span><br><span class="line"><span class="deletion">-    family: Lato</span></span><br><span class="line"><span class="addition">+    family: Monda</span></span><br><span class="line">    size:</span><br></pre></td></tr></table></figure>
+<figure class="highlight diff"><figcaption><span>themes/next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">font:</span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="addition">+  enable: true</span></span><br><span class="line"></span><br><span class="line">  global:</span><br><span class="line">    external: true</span><br><span class="line"><span class="deletion">-    family: Lato</span></span><br><span class="line"><span class="addition">+    family: Monda   # 设置Monda字体</span></span><br><span class="line">    size:</span><br></pre></td></tr></table></figure>
 
 <h3 id="显示加载进度条"><a href="#显示加载进度条" class="headerlink" title="显示加载进度条"></a>显示加载进度条</h3><ul>
 <li><a href="https://www.chingow.cn/posts/c7372a12.html" target="_blank" rel="noopener">Top 加载进度条</a></li>
@@ -402,112 +545,12 @@ table th:nth-of-type(1) {
 <p>当网络不好的时候会出现白屏等待，此时如果能有加载进度提示将会提高用户操作体验。<br>首先，在根目录下执行以下命令安装相关依赖，下载<code>theme-next-pace</code>到<code>themes/next/source/lib/pace</code>下</p>
 <figure class="highlight bash"><figcaption><span>themes/next/source/lib/pace</span></figcaption><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/theme-next/theme-next-pace themes/next/<span class="built_in">source</span>/lib/pace</span><br></pre></td></tr></table></figure>
 <p>在主题配置文件<code>_config.yml</code>中修改进度条配置，<code>theme</code>使用默认配置<code>minimal</code>，也可以使用<code>Themes list</code>中的其他pace主题：</p>
-<figure class="highlight diff"><figcaption><span>themes/next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">pace:</span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="addition">+  enable: true # 开启加载进度条</span></span><br><span class="line">  # Themes list:</span><br><span class="line">  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple</span><br><span class="line">  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal</span><br><span class="line">  theme: minimal</span><br></pre></td></tr></table></figure>
+<figure class="highlight diff"><figcaption><span>themes/next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">pace:</span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="addition">+  enable: true #   开启加载进度条</span></span><br><span class="line">  # Themes list:</span><br><span class="line">  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple</span><br><span class="line">  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal</span><br><span class="line">  theme: minimal</span><br></pre></td></tr></table></figure>
 
-<h3 id="标签插件应用"><a href="#标签插件应用" class="headerlink" title="标签插件应用"></a>标签插件应用</h3><ul>
-<li><a href="http://nobug.live/posts/6b216eb7/" target="_blank" rel="noopener">Hexo-Next 主题内置标签的使用</a></li>
-</ul>
-<div class="note info">
-            <p>完整标签列表：详见<a href="https://hexo.io/zh-cn/docs/tag-plugins.html" target="_blank" rel="noopener">Hexo官网</a></p>
-          </div>
-
-<ul>
-<li><p>文本居中引用，使用<code>centerquote</code>简写<code>cq</code></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 标签别名 --&gt;</span><br><span class="line">&#123;% cq %&#125;</span><br><span class="line">人的一切痛苦，本质上都是对自己的无能的愤怒。</span><br><span class="line">——王小波</span><br><span class="line">&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<p>效果展示：</p>
-<!-- 标签别名 -->
-<blockquote class="blockquote-center"><p>人的一切痛苦，本质上都是对自己的无能的愤怒。<br>——王小波</p>
-</blockquote>
-</li>
-<li><p><code>Bootstrap Callout</code>的使用方法</p>
-</li>
-</ul>
-<p>修改主题配置<code>_config.yml</code>，有几种style可选，这里我选择<code>flat</code>，设置图标显示<code>icons: true</code></p>
-<figure class="highlight diff"><figcaption><span>themes/next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"># Note tag (bs-callout)</span><br><span class="line">note:</span><br><span class="line">  # Note tag style values:</span><br><span class="line">  #  - simple    bs-callout old alert style. Default.</span><br><span class="line">  #  - modern    bs-callout new (v2-v3) alert style.</span><br><span class="line">  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.</span><br><span class="line">  #  - disabled  disable all CSS styles import of note tag.</span><br><span class="line"><span class="deletion">-  style: simple</span></span><br><span class="line"><span class="addition">+   style: flat</span></span><br><span class="line"><span class="deletion">-  icons: false</span></span><br><span class="line"><span class="addition">+  icons: true</span></span><br><span class="line">  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).</span><br><span class="line">  # Offset also applied to label tag variables. This option can work with disabled note tag.</span><br><span class="line">  light_bg_offset: 0</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% note class_name %&#125;</span><br><span class="line">这是一个 class_name 批注。</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
-<p>其中，<code>class_name</code>可以是以下列表中的一个值：</p>
-<blockquote>
-<p><code>default</code><br><code>primary</code><br><code>success</code><br><code>info</code><br><code>warning</code><br><code>danger</code></p>
-</blockquote>
-<p>效果展示：</p>
-<div class="note default">
-            <p>这是一个 default 批注。</p>
-          </div>
-
-<div class="note primary">
-            <p>这是一个 primary 批注。</p>
-          </div>
-
-<div class="note success">
-            <p>这是一个 success 批注。</p>
-          </div>
-
-<div class="note info">
-            <p>这是一个 info 批注。</p>
-          </div>
-
-<div class="note warning">
-            <p>这是一个 warning 批注。</p>
-          </div>
-
-<div class="note danger">
-            <p>这是一个 danger 批注。</p>
-          </div>
-
-<h3 id="添加颜色块和边框颜色"><a href="#添加颜色块和边框颜色" class="headerlink" title="添加颜色块和边框颜色"></a>添加颜色块和边框颜色</h3><p>在主题的<code>custom.styl</code>文件中新增css样式配置，修改如下：</p>
-<details>
-<summary>点击查看</summary>
-<figure class="highlight styl"><figcaption><span>themes\next\source\css\_custom\custom.styl</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">// 颜色块红色</span></span><br><span class="line">span<span class="selector-id">#inline-red</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#df3e3e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 颜色块黄色</span></span><br><span class="line">span<span class="selector-id">#inline-yellow</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 颜色块绿色</span></span><br><span class="line">span<span class="selector-id">#inline-green</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 颜色块蓝色</span></span><br><span class="line">span<span class="selector-id">#inline-blue</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 颜色块紫色</span></span><br><span class="line">span<span class="selector-id">#inline-purple</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline;</span><br><span class="line">  padding: .1em .6em .1em;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">vertical-align</span>: baseline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框红色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-red</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#df3e3e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框黄色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-yellow</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框绿色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-green</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框蓝色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-blue</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 左侧边框紫色</span></span><br><span class="line">p<span class="selector-id">#div-border-left-purple</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框红色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-red</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#df3e3e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框黄色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-yellow</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框绿色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-green</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框蓝色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-blue</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 右侧边框紫色</span></span><br><span class="line">p<span class="selector-id">#div-border-right-purple</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-right-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框红色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-red</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#df3e3e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框黄色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-yellow</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#f0ad4e</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框绿色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-green</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#5cb85c</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框蓝色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-blue</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#2780e3</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 上侧边框紫色</span></span><br><span class="line">p<span class="selector-id">#div-border-top-purple</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#9954bb</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>
-
-<p>支持颜色为：<code>red</code>、<code>yellow</code>、<code>green</code>、<code>blue</code>、<code>purple</code>，也可自己根据配置格式增加</p>
-<table>
-<thead>
-<tr>
-<th>描述</th>
-<th>语法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>颜色块</td>
-<td><code>&lt;span id=&quot;inline-red&quot;&gt; 这里是红色块 &lt;/span&gt;</code></td>
-</tr>
-<tr>
-<td>颜色块</td>
-<td><code>&lt;span id=&quot;inline-blue&quot;&gt; 这里是蓝色块 &lt;/span&gt;</code></td>
-</tr>
-<tr>
-<td>左侧边框</td>
-<td><code>&lt;p id=&quot;div-border-left-yellow&quot;&gt; 这里是黄色左侧边框 &lt;/p&gt;</code></td>
-</tr>
-<tr>
-<td>右侧边框</td>
-<td><code>&lt;p id=&quot;div-border-right-green&quot;&gt; 这里是绿色右侧边框 &lt;/p&gt;</code></td>
-</tr>
-<tr>
-<td>上侧边框</td>
-<td><code>&lt;p id=&quot;div-border-top-purple&quot;&gt; 这里是紫色上侧边框 &lt;/p&gt;</code></td>
-</tr>
-</tbody></table>
-<p>效果展示：<br><span id="inline-red"> 这里是红色块 </span><br><span id="inline-blue"> 这里是蓝色块 </span></p>
-<p id="div-border-left-yellow"> 这里是黄色左侧边框 </p>
-<p id="div-border-right-green"> 这里是绿色右侧边框 </p>
-<p id="div-border-top-purple"> 这里是紫色上侧边框 </p>
-
-<h3 id="其他配置修改"><a href="#其他配置修改" class="headerlink" title="其他配置修改"></a>其他配置修改</h3><h4 id="修改单引号-包含的语句块字体颜色"><a href="#修改单引号-包含的语句块字体颜色" class="headerlink" title="修改单引号(``)包含的语句块字体颜色"></a>修改单引号(``)包含的语句块字体颜色</h4><figure class="highlight diff"><figcaption><span>themes/next/source/css/_variables/base.styl</span></figcaption><table><tr><td class="code"><pre><span class="line">// Code &amp; Code Blocks</span><br><span class="line">// --------------------------------------------------</span><br><span class="line">$code-font-family               = $font-family-monospace;</span><br><span class="line">$code-border-radius             = 3px;</span><br><span class="line"><span class="deletion">- $code-foreground                = $black-light;</span></span><br><span class="line"><span class="addition">+ $code-foreground                = #005CAF;</span></span><br><span class="line">$code-background                = $gainsboro;</span><br></pre></td></tr></table></figure>
-
-<h4 id="修改hexo-n-file创建文件模板"><a href="#修改hexo-n-file创建文件模板" class="headerlink" title="修改hexo n file创建文件模板"></a>修改<code>hexo n file</code>创建文件模板</h4><figure class="highlight diff"><figcaption><span>scaffolds/post.md</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">---</span></span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line"><span class="addition">+ categories:</span></span><br><span class="line">tags:</span><br><span class="line"><span class="addition">+ comments: false</span></span><br><span class="line"><span class="addition">+ abbrlink:</span></span><br><span class="line"><span class="comment">---</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="更多美化增强参考"><a href="#更多美化增强参考" class="headerlink" title="更多美化增强参考"></a>更多美化增强参考</h3><ul>
-<li><p><a href="https://www.chingow.cn/posts/c7372a12.html" target="_blank" rel="noopener">Hexo+NexT(v7.0+) 搭建博客：主题美化</a><br>Hexo: <code>v3.8.0</code>, NexT: <code>v7.1.0</code><br><a href="https://github.com/chingov/hexo-blog-chingow.git" target="_blank" rel="noopener">chingow 博客源码</a></p>
-</li>
-<li><p><a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">Hexo 搭建个人博客系列：写作技巧篇</a><br>Hexo: <code>v3.7.1</code>, NexT: <code>v6.4.2</code><br><a href="https://github.com/Coodool/hexo-blog-yearito.git" target="_blank" rel="noopener">yearito 博客源码</a></p>
-</li>
-</ul>
-]]></content>
+<div class="note info"><p>Hexo博客的NexT主题美化和功能增强(二) <a href="https://blog.kang1024.tk/21493ef0/">去看看</a></p>
+</div>]]></content>
       <categories>
-        <category>工具文档</category>
+        <category>Hexo博客</category>
       </categories>
       <tags>
         <tag>hexo</tag>
@@ -525,7 +568,7 @@ table th:nth-of-type(1) {
 
 <p><a href="https://hooray.github.io/posts/15e2d21f/" target="_blank" rel="noopener">参考博客</a></p>
 <p><strong>说明：</strong>主要记录下自己搭建过程中遇到的问题，完整教程请参考<a href="https://hooray.github.io/posts/15e2d21f/" target="_blank" rel="noopener">使用Hexo和Github快速搭建个人博客</a>，至于主题(如NexT)安装、美化等网上教程较多，可根据个人喜好选择。</p>
-<h3 id="环境版本说明"><a href="#环境版本说明" class="headerlink" title="环境版本说明"></a>环境版本说明</h3><p>Hexo: <code>v4.2.1</code><br>NexT: <code>v7.7.0</code></p>
+<h3 id="环境版本说明"><a href="#环境版本说明" class="headerlink" title="环境版本说明"></a>环境版本说明</h3><p>Hexo: <code>v4.2.1</code><br>NexT: <code>v8.0.0_rc.2</code></p>
 <h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p><strong>自己第一次部署时是选择Hexo+Github部署的，但是由于国内访问Github比较慢，经常无法访问，后面又将博客部署在了Coding上，所以我们这里选择将博客同时部署在Github和Coding，国内访问Coding比Github快很多。</strong><br>Hexo是一款基于Node.js的静态博客框架，需要如下准备工作：</p>
 <ol>
 <li>安装<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">Node.js</a></li>
@@ -536,7 +579,7 @@ table th:nth-of-type(1) {
 <blockquote>
 <p>安装Node.js(个人选择了npm)、Git和注册Github不再赘述，可自行百度，注意注册Coding时这里的团队域名，不是项目仓库的名称，而且注册后无法修改，所以设置时请想好域名再注册，比如我设置的团队域名是<code>kang1024</code></p>
 </blockquote>
-<p><img src="/images/%E5%B7%A5%E5%85%B7%E6%96%87%E6%A1%A3/2020-05-25_144456.png" alt=""></p>
+<p><img src="/images/Hexo%E5%8D%9A%E5%AE%A2/2020-05-25_144456.png" alt=""></p>
 <h3 id="安装Hexo建站"><a href="#安装Hexo建站" class="headerlink" title="安装Hexo建站"></a>安装Hexo建站</h3><p>安装Hexo</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 <p>初始化，创建文件夹存放博客相关源码，如：<code>D:\blog</code>，进入D盘根目录下，右键<code>Git Bash</code>运行</p>
@@ -550,11 +593,11 @@ table th:nth-of-type(1) {
 <p>$ hexo s<br>INFO  Start processing<br>INFO  Hexo is running at <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> . Press Ctrl+C to stop.</p>
 </blockquote>
 <p>此时打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 发现网站搭建成功。</p>
-<p><img src="/images/%E5%B7%A5%E5%85%B7%E6%96%87%E6%A1%A3/2020-05-25_170853.png" alt=""></p>
+<p><img src="/images/Hexo%E5%8D%9A%E5%AE%A2/2020-05-25_170853.png" alt=""></p>
 <h3 id="部署Github-Pages"><a href="#部署Github-Pages" class="headerlink" title="部署Github Pages"></a>部署Github Pages</h3><p>创建仓库，不能设置为<code>private</code>(可能会导致博客无法访问)，仓库名固定写法为<code>your_username.github.io</code>，创建完成后，选择<code>Settings</code>滚动页面查看<code>GitHub Pages</code>，或者<code>Ctrl+F</code>搜索<code>GitHub Pages</code>即可。</p>
-<p><img src="/images/%E5%B7%A5%E5%85%B7%E6%96%87%E6%A1%A3/2020-05-25_171208.png" alt=""></p>
+<p><img src="/images/Hexo%E5%8D%9A%E5%AE%A2/2020-05-25_171208.png" alt=""></p>
 <h3 id="部署Coding-Pages"><a href="#部署Coding-Pages" class="headerlink" title="部署Coding Pages"></a>部署Coding Pages</h3><p>创建仓库，Coding默认为私有仓库，仓库名固定写法为<code>your_username.coding.me</code>，创建成功，然后选择 持续集成-&gt;静态网站，如果找不到静态网站，请检查 项目设置-&gt;项目与成员-&gt;功能开关，<code>代码仓库、持续集成、持续部署</code>是否开启，在静态网站界面填写网站信息保存后即可生成访问链接，生成访问连接后选择立即部署。</p>
-<p><img src="/images/%E5%B7%A5%E5%85%B7%E6%96%87%E6%A1%A3/2020-05-25_171614.png" alt=""><br><img src="/images/%E5%B7%A5%E5%85%B7%E6%96%87%E6%A1%A3/2020-05-25_172010.png" alt=""></p>
+<p><img src="/images/Hexo%E5%8D%9A%E5%AE%A2/2020-05-25_171614.png" alt=""><br><img src="/images/Hexo%E5%8D%9A%E5%AE%A2/2020-05-25_172010.png" alt=""></p>
 <h3 id="发布到Github和Coding"><a href="#发布到Github和Coding" class="headerlink" title="发布到Github和Coding"></a>发布到Github和Coding</h3><p>修改根目录下的<code>_config.yml</code>，同时发布到github和coding</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">    <span class="attr">github:</span> <span class="string">https://github.com/your_username/your_username.github.io.git,master</span></span><br><span class="line">    <span class="attr">coding:</span> <span class="string">https://e.coding.net/your_username/your_username.coding.me.git,master</span></span><br></pre></td></tr></table></figure>
 <p>这里建议安装<a href="https://github.com/hexojs/hexo-deployer-git" target="_blank" rel="noopener">hexo-deployer-git</a>自动部署发布工具</p>
@@ -575,7 +618,7 @@ table th:nth-of-type(1) {
 </ul>
 ]]></content>
       <categories>
-        <category>工具文档</category>
+        <category>Hexo博客</category>
       </categories>
       <tags>
         <tag>hexo</tag>
@@ -612,6 +655,32 @@ table th:nth-of-type(1) {
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ vi /opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml</span><br></pre></td></tr></table></figure>
 <p><img src="/images/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/2020-05-25_162735.png" alt=""></p>
 <p>将host的ip修改为域名，执行<code>gitlab-ctl restart</code>重启Gitlab即可</p>
+<h3 id="git在windows上提交时会自动将LF替换成CRLF的问题"><a href="#git在windows上提交时会自动将LF替换成CRLF的问题" class="headerlink" title="git在windows上提交时会自动将LF替换成CRLF的问题"></a>git在windows上提交时会自动将LF替换成CRLF的问题</h3><p><a href="https://www.cnblogs.com/dahe1989/archive/2019/04/28/10784581.html" target="_blank" rel="noopener">参考博客</a></p>
+<blockquote>
+<p><code>CR</code>：Carriage Return，<code>\r</code>，表示回车<br><code>LF</code>：Linefeed，<code>\n</code>，表示换行<br><code>CRLF</code>：Carriage Return &amp; Linefeed，<code>\r\n</code>，表示回车并换行</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">平台</th>
+<th align="center">换行</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">UNIX/Linux</td>
+<td align="center">LF</td>
+</tr>
+<tr>
+<td align="center">Mac OS</td>
+<td align="center">LF</td>
+</tr>
+<tr>
+<td align="center">DOS/Windows</td>
+<td align="center">CRLF</td>
+</tr>
+</tbody></table>
+<p><code>Github</code>上一些开源代码中是<code>LF</code>换行，但Windows平台使用的<code>CRLF</code>换行符。git默认配置了<code>autocrlf</code>为<code>true</code>，因此Windows下使用git默认所有代码<code>LF</code>都会被替换成<code>CRLF</code>，代码提交时显示0行差异，但仍会被认为是差异文件。<br>修改git全局配置，禁用git自动将<code>LF</code>转为<code>CRLF</code>：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global core.autocrlf <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>常见问题</category>
@@ -1130,7 +1199,7 @@ table th:nth-of-type(1) {
 </blockquote>
 <h3 id="模板多态和虚多态"><a href="#模板多态和虚多态" class="headerlink" title="模板多态和虚多态"></a>模板多态和虚多态</h3><h3 id="c-11"><a href="#c-11" class="headerlink" title="c++11"></a>c++11</h3>]]></content>
       <categories>
-        <category>cpp</category>
+        <category>cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
@@ -1197,7 +1266,7 @@ table th:nth-of-type(1) {
 
 <h3 id="2-幻数-魔法数"><a href="#2-幻数-魔法数" class="headerlink" title="2. 幻数(魔法数)"></a>2. 幻数(魔法数)</h3><h3 id="3-全局变量"><a href="#3-全局变量" class="headerlink" title="3. 全局变量"></a>3. 全局变量</h3><h2 id="第二章-语法问题"><a href="#第二章-语法问题" class="headerlink" title="第二章 语法问题"></a>第二章 语法问题</h2><h3 id="13-数组定义和初始化混淆"><a href="#13-数组定义和初始化混淆" class="headerlink" title="13. 数组定义和初始化混淆"></a>13. 数组定义和初始化混淆</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>* p = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>); <span class="comment">//一个int对象，初始化为10</span></span><br><span class="line"><span class="keyword">int</span>* q = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">10</span>]; <span class="comment">//包含10个int的数组</span></span><br><span class="line"><span class="function"><span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">vec</span><span class="params">(<span class="number">10</span>)</span></span>; <span class="comment">//直接用标准可的组件，不用显式申请内存，也不用显式回收</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>cpp</category>
+        <category>cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
@@ -1320,7 +1389,7 @@ table th:nth-of-type(1) {
 <p>方法2：(该方法必须事先知道，x和y的类型，且二者类型一致)</p>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> x = <span class="number">100</span>;</span><br><span class="line"><span class="keyword">int</span> y = <span class="number">200</span>;</span><br><span class="line"><span class="keyword">int</span> min = <span class="built_in">std</span>::min&lt;<span class="keyword">int</span>&gt;(x, y);</span><br><span class="line"><span class="keyword">int</span> max = <span class="built_in">std</span>::max&lt;<span class="keyword">int</span>&gt;(x, y);</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>cpp</category>
+        <category>cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
@@ -1679,7 +1748,7 @@ table th:nth-of-type(1) {
 <h3 id="SQLite管理工具"><a href="#SQLite管理工具" class="headerlink" title="SQLite管理工具"></a>SQLite管理工具</h3><p>可视化管理工具，个人使用<a href="https://sqlitestudio.pl/" target="_blank" rel="noopener">SQLiteStudio</a></p>
 ]]></content>
       <categories>
-        <category>cpp</category>
+        <category>cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
@@ -1698,18 +1767,18 @@ table th:nth-of-type(1) {
 <h3 id="控制台登录"><a href="#控制台登录" class="headerlink" title="控制台登录"></a>控制台登录</h3><blockquote>
 <p>Bt-Panel: <code>http://ip:port/9c04d6b5/</code><br>username: <code>fv2qrl1m</code><br>password: <code>3032a576</code></p>
 </blockquote>
+<h3 id="宝塔论坛"><a href="#宝塔论坛" class="headerlink" title="宝塔论坛"></a>宝塔论坛</h3><blockquote>
+<p><a href="https://www.bt.cn/bbs/thread-19376-1-1.html" target="_blank" rel="noopener">https://www.bt.cn/bbs/thread-19376-1-1.html</a></p>
+</blockquote>
+<h3 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</span><br></pre></td></tr></table></figure>
+
+<h3 id="软件更新"><a href="#软件更新" class="headerlink" title="软件更新"></a>软件更新</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl http://download.bt.cn/install/update6.sh | bash</span><br></pre></td></tr></table></figure>
+
+<h3 id="软件卸载"><a href="#软件卸载" class="headerlink" title="软件卸载"></a>软件卸载</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget http://download.bt.cn/install/bt-uninstall.sh &amp;&amp; sh bt-uninstall.sh</span><br></pre></td></tr></table></figure>
 <h3 id="查看面板入口"><a href="#查看面板入口" class="headerlink" title="查看面板入口"></a>查看面板入口</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ /etc/init.d/bt default</span><br></pre></td></tr></table></figure>
 
 <h3 id="关闭安全入口"><a href="#关闭安全入口" class="headerlink" title="关闭安全入口"></a>关闭安全入口</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ rm -f /www/server/panel/data/admin_path.pl</span><br></pre></td></tr></table></figure>
 <p><font color=red> 注意：【关闭安全入口】将使您的面板登录地址被直接暴露在互联网上，非常危险，请谨慎操作 </font><br>宝塔Linux面板 <a href="https://www.bt.cn/bbs/thread-18367-1-1.html" target="_blank" rel="noopener">请求帮助</a></p>
-<h3 id="安装说明"><a href="#安装说明" class="headerlink" title="安装说明"></a>安装说明</h3><blockquote>
-<p><a href="https://www.bt.cn/bbs/thread-19376-1-1.html" target="_blank" rel="noopener">https://www.bt.cn/bbs/thread-19376-1-1.html</a></p>
-</blockquote>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</span><br></pre></td></tr></table></figure>
-
-<h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl http://download.bt.cn/install/update6.sh | bash</span><br></pre></td></tr></table></figure>
-
-<h3 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget http://download.bt.cn/install/bt-uninstall.sh &amp;&amp; sh bt-uninstall.sh</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>工具文档</category>
@@ -2100,7 +2169,7 @@ table th:nth-of-type(1) {
 <h3 id="第16章-使用C-11开发一个简单的通信程序"><a href="#第16章-使用C-11开发一个简单的通信程序" class="headerlink" title="第16章 使用C++11开发一个简单的通信程序"></a>第16章 使用C++11开发一个简单的通信程序</h3><p><a href="https://www.cnblogs.com/qicosmos/p/3461116.html" target="_blank" rel="noopener">原文博客</a><br><a href="https://github.com/kang1024/daily/tree/master/visual%20studio/cxx11/16_asio_msg" target="_blank" rel="noopener">查看源码</a></p>
 ]]></content>
       <categories>
-        <category>cpp</category>
+        <category>cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
@@ -2142,8 +2211,10 @@ table th:nth-of-type(1) {
 </blockquote>
 <a id="more"></a>
 
-<p><strong>vscode 中预览 <code>markdown</code>效果，快捷键 <code>ctrl+shift+v</code></strong></p>
-<h3 id="常用语法"><a href="#常用语法" class="headerlink" title="常用语法"></a>常用语法</h3><table>
+<h3 id="常用语法"><a href="#常用语法" class="headerlink" title="常用语法"></a>常用语法</h3><div class="note info"><p>更多语法规则：详见<a href="https://www.runoob.com/markdown/md-tutorial.html" target="_blank" rel="noopener">RUNOOB.COM</a></p>
+</div>
+
+<table>
 <thead>
 <tr>
 <th>标题</th>
@@ -2186,14 +2257,12 @@ table th:nth-of-type(1) {
 </ul>
 </li>
 </ol>
-<hr>
 <p><em>这是斜体</em></p>
 <p><strong>这是粗体</strong></p>
 <p><strong><em>这是粗斜体</em></strong></p>
 <p><del>这是删除线</del></p>
 <p>这里有个脚注<a href="markdown">^试试这里</a></p>
 <p><font color=#FF0000> 这是红色 </font></p>
-<hr>
 <blockquote>
 <p>区块1</p>
 <blockquote>
@@ -2229,49 +2298,8 @@ table th:nth-of-type(1) {
 </tr>
 </tbody></table>
 <p><img src="https://www.runoob.com/wp-content/uploads/2019/03/iconfinder_markdown_298823.png" alt="Markdown"></p>
-<hr>
 <p><font face="Consolas" color=red size=6> curl实现HTTP的post/get请求 </font></p>
-<blockquote>
-<p><a href="https://www.cnblogs.com/woniu201/p/9798278.html" target="_blank" rel="noopener">参考教程1</a><br><a href="https://blog.csdn.net/mao834099514/article/details/54947853" target="_blank" rel="noopener">参考教程2</a></p>
-</blockquote>
-<ul>
-<li>markdown代码块支持的语言<br><a href="https://www.jianshu.com/p/1f223eb78ad8" target="_blank" rel="noopener">代码块支持的语言</a></li>
-</ul>
-<hr>
-<p><strong><em>各种常见语言输出</em></strong></p>
-<ul>
-<li><p>c</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">"Hello, World!"</span>);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>c++</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello, World!"</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>java</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="string">"Hello, World!"</span>);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>javascript</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">"Hello, World!"</span>);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>python</p>
-<figure class="highlight py"><table><tr><td class="code"><pre><span class="line">print(<span class="string">"Hello, World!"</span>)</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>lua</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">"Hello, World!"</span>)</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>c#</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Console.WriteLine(&quot;Hello, World!&quot;);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>php</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">echo</span> <span class="string">"Hello, World!"</span>;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>shell</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"Hello, World!"</span>;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>go</p>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line">fmt.Println(<span class="string">"Hello, World!"</span>);</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
+<p>markdown代码块支持的语言 <a href="https://www.jianshu.com/p/1f223eb78ad8" target="_blank" rel="noopener">前往查看</a></p>
 <h3 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h3><style>
 table th:nth-of-type(1) {
   width: 50%;
@@ -2327,9 +2355,9 @@ table th:nth-of-type(1) {
 </blockquote>
 <a id="more"></a>
 
-<p><img src="/images/%E5%B7%A5%E5%85%B7%E6%96%87%E6%A1%A3/Hexo.png" alt=""><br><img src="/images/%E5%B7%A5%E5%85%B7%E6%96%87%E6%A1%A3/NexT.png" alt=""><br><img src="http://theme-next.iissnan.com/assets/img/NextSchemes3.png" alt=""></p>
-<p><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Node.js-v13.6.0-brightgreen" alt="Node.js version"></a>  <a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1023025597810528" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/npm%20package-v6.13.4-green" alt="NPM version"></a>  <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Hexo-v4.2.1-red" alt="Hexo version"></a>  <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/NexT-v7.7.0-blue" alt="NexT version"></a>  <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-orange" alt="License"></a></p>
-<h3 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node  v13.6.0</span><br><span class="line">npm   v6.13.4</span><br><span class="line">hexo  v4.2.1</span><br><span class="line">next  v7.7.0</span><br></pre></td></tr></table></figure>
+<p><img src="/images/Hexo%E5%8D%9A%E5%AE%A2/Hexo.png" alt=""><br><img src="/images/Hexo%E5%8D%9A%E5%AE%A2/NexT.png" alt=""><br><img src="http://theme-next.iissnan.com/assets/img/NextSchemes3.png" alt=""></p>
+<p><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Node.js-v13.6.0-brightgreen" alt="Node.js version"></a>  <a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1023025597810528" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/npm%20package-v6.13.4-green" alt="NPM version"></a>  <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Hexo-v4.2.1-red" alt="Hexo version"></a>  <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/NexT-v8.0.0_rc.2-blue" alt="NexT version"></a>  <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/License-MIT-orange" alt="License"></a></p>
+<h3 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node  v13.6.0</span><br><span class="line">npm   v6.13.4</span><br><span class="line">hexo  v4.2.1</span><br><span class="line">next  v8.0.0_rc.2</span><br></pre></td></tr></table></figure>
 
 <h3 id="清理缓存"><a href="#清理缓存" class="headerlink" title="清理缓存"></a>清理缓存</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
 
@@ -2352,7 +2380,7 @@ table th:nth-of-type(1) {
 </ul>
 ]]></content>
       <categories>
-        <category>工具文档</category>
+        <category>Hexo博客</category>
       </categories>
       <tags>
         <tag>hexo</tag>
