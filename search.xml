@@ -351,12 +351,22 @@
 </ul>
 <h3 id="其他配置修改"><a href="#其他配置修改" class="headerlink" title="其他配置修改"></a>其他配置修改</h3><h4 id="修改单引号-包含的代码块字体颜色"><a href="#修改单引号-包含的代码块字体颜色" class="headerlink" title="修改单引号(``)包含的代码块字体颜色"></a>修改单引号(``)包含的代码块字体颜色</h4><figure class="highlight diff"><figcaption><span>themes/next/source/css/_variables/base.styl</span></figcaption><table><tr><td class="code"><pre><span class="line">// Code &amp; Code Blocks</span><br><span class="line">// --------------------------------------------------</span><br><span class="line">$code-font-family               = $font-family-monospace;</span><br><span class="line">$code-border-radius             = 3px;</span><br><span class="line"><span class="deletion">- $code-foreground                = $black-light;</span></span><br><span class="line"><span class="addition">+ $code-foreground                = #005CAF;</span></span><br><span class="line">$code-background                = $gainsboro;</span><br></pre></td></tr></table></figure>
 
+<h4 id="修改超链接字体颜色"><a href="#修改超链接字体颜色" class="headerlink" title="修改超链接字体颜色"></a>修改超链接字体颜色</h4><ul>
+<li><a href="https://www.jianshu.com/p/15479544e781" target="_blank" rel="noopener">Next主题修改超链接样式</a></li>
+<li><a href="https://www.sioe.cn/yingyong/yanse-rgb-16/" target="_blank" rel="noopener">RGB颜色值与十六进制</a></li>
+</ul>
+<p>在<code>themes\next\source\css\_common\components\post\post.styl</code>中添加如下字段：</p>
+<figure class="highlight diff"><figcaption><span>themes\next\source\css\_common\components\post\post.styl</span></figcaption><table><tr><td class="code"><pre><span class="line">.post-button &#123;</span><br><span class="line">  ...</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="addition">+ .post-body a &#123;</span></span><br><span class="line"><span class="addition">+   color: #7B68EE;</span></span><br><span class="line"><span class="addition">+   font-weight: bold;</span></span><br><span class="line"><span class="addition">+ &#125;</span></span><br><span class="line"></span><br><span class="line">.use-motion &#123;</span><br><span class="line">  ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <h4 id="修改hexo-n-file创建文件模板"><a href="#修改hexo-n-file创建文件模板" class="headerlink" title="修改hexo n file创建文件模板"></a>修改<code>hexo n file</code>创建文件模板</h4><figure class="highlight diff"><figcaption><span>scaffolds/post.md</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">---</span></span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line"><span class="addition">+ categories:</span></span><br><span class="line">tags:</span><br><span class="line"><span class="addition">+ comments: false</span></span><br><span class="line"><span class="addition">+ abbrlink:</span></span><br><span class="line"><span class="comment">---</span></span><br></pre></td></tr></table></figure>
 <h3 id="待美化增强功能-amp-TODO"><a href="#待美化增强功能-amp-TODO" class="headerlink" title="待美化增强功能&amp;TODO"></a>待美化增强功能&amp;TODO</h3><ul>
 <li><input disabled="" type="checkbox"> 支持文章加密访问</li>
 <li><input disabled="" type="checkbox"> 支持数学公式渲染</li>
 <li><input disabled="" type="checkbox"> 整理NexT主题自定义修改</li>
-<li><input disabled="" type="checkbox"> 整理NexT主题升级记录</li>
+<li><input disabled="" type="checkbox"> 整理NexT主题升级记录(v4.7.0 –&gt; v8.0.0-rc.2)<blockquote>
+<p>【必读】<a href="https://github.com/next-theme/hexo-theme-next/issues/4" target="_blank" rel="noopener">更新说明及常见问题</a><br><code>canvas_nest</code>字段丢失导致自定义动态背景失效<br>自带的<a href="https://fa5.dashgame.com/" target="_blank" rel="noopener">Font Awesome5</a>图标由<a href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener">4.7.0</a>版本升级为5.13.0版本，缺少一些社交网站的图标，如：博客图标<code>book</code></p>
+</blockquote>
+</li>
 </ul>
 <h3 id="更多美化增强参考"><a href="#更多美化增强参考" class="headerlink" title="更多美化增强参考"></a>更多美化增强参考</h3><ul>
 <li><p><a href="https://www.chingow.cn/posts/c7372a12.html" target="_blank" rel="noopener">Hexo+NexT(v7.0+) 搭建博客：主题美化</a><br>Hexo: <code>v3.8.0</code>, NexT: <code>v7.1.0</code><br><a href="https://github.com/chingov/hexo-blog-chingow.git" target="_blank" rel="noopener">chingow 博客源码</a></p>
@@ -611,6 +621,7 @@ table th:nth-of-type(1) {
 <li><a href="https://hooray.github.io/posts/15e2d21f/" target="_blank" rel="noopener">使用Hexo和Github快速搭建个人博客</a></li>
 <li><a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502" target="_blank" rel="noopener">Hexo博客优化之Next主题美化</a></li>
 <li><a href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener">The Icons 4.7</a></li>
+<li><a href="https://github.com/next-theme/hexo-theme-next/issues/4" target="_blank" rel="noopener">更新说明及常见问题</a></li>
 </ul>
 <h3 id="个人博客地址"><a href="#个人博客地址" class="headerlink" title="个人博客地址"></a>个人博客地址</h3><ul>
 <li><a href="https://kang1024.github.io/" target="_blank" rel="noopener">Github</a></li>
