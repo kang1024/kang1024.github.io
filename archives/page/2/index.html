@@ -558,6 +558,19 @@
     <span title="站点阅读时长">58 分钟</span>
 </div>
 
+
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment-precise-range-plugin@1.3.0/moment-precise-range.min.js"></script>
+  <script> function PrefixInteger(num, n = 2) { return (Array(n).join(0) + num).slice(-n); } function GetRunningTime() { var timesDiff = moment.preciseDiff(moment(), moment(20200114, "YYYYMMDD"), true); var strText = ""; strText += " " + PrefixInteger(timesDiff.years).toString() + " 年"; strText += " " + PrefixInteger(timesDiff.months).toString() + " 月"; strText += " " + PrefixInteger(timesDiff.days).toString() + " 天"; strText += " " + PrefixInteger(timesDiff.hours).toString() + " 时"; strText += " " + PrefixInteger(timesDiff.minutes).toString() + " 分"; strText += " " + PrefixInteger(timesDiff.seconds).toString() + " 秒"; strText = strText.replace(/\d+/g, '<span style="color:#1890ff">$&</span>'); element.innerHTML = "本站已安全运行" + strText; } var element = document.createElement("div"); document.querySelector(".footer-inner").appendChild(element); GetRunningTime(); setInterval("GetRunningTime()", 1000); </script>
+
+
+
+  
+    <script src="/js/cursor/fireworks.js"></script>
+  
+
+
+
         
 <div class="busuanzi-count">
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
