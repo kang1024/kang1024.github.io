@@ -68,7 +68,24 @@
 <li>贪心算法</li>
 <li>分支界限</li>
 </ul>
-<h3 id="印象笔记"><a href="#印象笔记" class="headerlink" title="印象笔记"></a>印象笔记</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">变量的命名规则，运算符优先级，函数，递归，贪心算法，回溯，分治，动态规划（0&#x2F;1背包），分支限界kmp，，最小生成树，最短路径</span><br><span class="line">关键字C&#x2F;C++区别，动态开辟内存，结构体对齐，权限</span><br><span class="line">指针函数，函数指针，指针数组，数组指针，二维数组传参，最大递增子串，最大公共子串，最大子序列和</span><br><span class="line"></span><br><span class="line">const，inline</span><br><span class="line">引用返回&amp;</span><br><span class="line">作用域，字符常量</span><br><span class="line">地址空间</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">封装，继承（公私保及访问权限），多态</span><br><span class="line">构造函数，友元，重载。</span><br><span class="line">单继承，多继承</span><br><span class="line">虚表，virtual（修饰基类的析构函数）， 静态联编动态联编 （早绑定晚绑定），静多态，动多态</span><br><span class="line">模板函数，函数模板，模板类，类模板</span><br><span class="line">隐藏、覆盖、重载(高质量C++编程)</span><br><span class="line">排序，时间复杂度，空间复杂度</span><br><span class="line"></span><br><span class="line">链表，栈，队列，二叉树，深浅拷贝&#x2F;赋值</span><br><span class="line"></span><br><span class="line">pdf课件，三次握手，tcp，udp，arp，http，dns，拥塞控制，ip</span><br><span class="line"></span><br><span class="line">设计模式(单例模式)</span><br></pre></td></tr></table></figure>
+<h3 id="递归、迭代和动态规划的区别与联系"><a href="#递归、迭代和动态规划的区别与联系" class="headerlink" title="递归、迭代和动态规划的区别与联系"></a>递归、迭代和动态规划的区别与联系</h3><ul>
+<li><p>定义<br>递归：程序调用自身，从顶部将问题分解，通过解决所有分解出来的小问题，来解决整个问题。<br>迭代：利用变量的原值推算出变量的一个新值。递归中一定有迭代，但迭代中不一定有递归。<br>动态规划：通常与递归相反，其从底部开始解决问题，将所有小问题解决掉，进而解决整个问题。<br>下面通过斐波那契数列对三者进行对比：</p>
+<blockquote>
+<p>斐波那契数列：1, 1, 2, 3, 5, 8, 13, 21…<br>递归公式：F[n] = F[n-1] + F[n-2] (n &gt;= 3), 递归结束条件：F[1] = 1, F[2] = 1</p>
+</blockquote>
+</li>
+<li><p>递归<br>自上而下调用函数本身，速度较慢，不推荐。<br>要知道第n个数，必须要先知道第n-1和第n-2个数；<br>而想要知道第n-1个数，必须要知道第n-2和第n-3个数。<br>f(n) = f(n-1) + f(n-2)<br>= f(n-2) + f(n-3) + f(n-3) + f(n-4)<br>= …</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Fibonacci</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt;= <span class="number">2</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> Fibonacci(n - <span class="number">1</span>) + Fibonacci(n - <span class="number">2</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>迭代<br>利用原值去求解下一个值，一般比递归速度更快。<br>由第1个数和第2个数去求解第3个数；<br>由第2个数和第3个数去求解第4个数；<br>以此类推：<br>f(3) = f(2) + f(1)<br>f(4) = f(3) + f(2)<br>…</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Fibonacci</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt;= <span class="number">2</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> f1 = <span class="number">1</span>, f2 = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">int</span> res = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">3</span>; i &lt;= <span class="number">3</span>; ++i) &#123;</span><br><span class="line">        res = f1 + f2;</span><br><span class="line">        f1 = f2;</span><br><span class="line">        f2 = res;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>动态规划<br>动态规划采用空间换时间的方法，速度比迭代更快一些。<br>子问题可能需要多次计算，即子问题的重接性质；<br>利用额外空间，将子问题的解保存起来，每个子问题只用计算一次，以节省时间。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Fibonacci</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">dp</span><span class="params">(n)</span></span>;</span><br><span class="line">    dp[<span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">    dp[<span class="number">2</span>] = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">3</span>; i &lt;= n; ++i) &#123;</span><br><span class="line">        dp[i] = dp[i - <span class="number">1</span>] + dp[i - <span class="number">2</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> dp[n];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="印象笔记"><a href="#印象笔记" class="headerlink" title="印象笔记"></a>印象笔记</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">变量的命名规则，运算符优先级，函数，递归，贪心算法，回溯，分治，动态规划（0&#x2F;1背包），分支限界kmp，最小生成树，最短路径</span><br><span class="line">关键字C&#x2F;C++区别，动态开辟内存，结构体对齐，权限</span><br><span class="line">指针函数，函数指针，指针数组，数组指针，二维数组传参，最大递增子串，最大公共子串，最大子序列和</span><br><span class="line"></span><br><span class="line">const，inline</span><br><span class="line">引用返回&amp;</span><br><span class="line">作用域，字符常量</span><br><span class="line">地址空间</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">封装，继承（公私保及访问权限），多态</span><br><span class="line">构造函数，友元，重载。</span><br><span class="line">单继承，多继承</span><br><span class="line">虚表，virtual（修饰基类的析构函数）， 静态联编动态联编 （早绑定晚绑定），静多态，动多态</span><br><span class="line">模板函数，函数模板，模板类，类模板</span><br><span class="line">隐藏、覆盖、重载(高质量C++编程)</span><br><span class="line">排序，时间复杂度，空间复杂度</span><br><span class="line"></span><br><span class="line">链表，栈，队列，二叉树，深浅拷贝&#x2F;赋值</span><br><span class="line"></span><br><span class="line">pdf课件，三次握手，tcp，udp，arp，http，dns，拥塞控制，ip</span><br><span class="line"></span><br><span class="line">设计模式(单例模式)</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>工作学习</category>
@@ -91,14 +108,25 @@
 
 <h3 id="华为机试"><a href="#华为机试" class="headerlink" title="华为机试"></a>华为机试</h3><p><a href="https://www.nowcoder.com/ta/huawei" target="_blank" rel="noopener">https://www.nowcoder.com/ta/huawei</a></p>
 <h3 id="面试宝典"><a href="#面试宝典" class="headerlink" title="面试宝典"></a>面试宝典</h3><p><a href="https://www.nowcoder.com/tutorial/93/8ba2828006dd42879f3a9029eabde9f1" target="_blank" rel="noopener">https://www.nowcoder.com/tutorial/93/8ba2828006dd42879f3a9029eabde9f1</a></p>
-]]></content>
+<h4 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h4><h5 id="基础语言I"><a href="#基础语言I" class="headerlink" title="基础语言I"></a>基础语言I</h5><ul>
+<li>static关键字</li>
+<li>c++和c的区别</li>
+<li>c++的四种强制类型转换</li>
+<li>指针和引用的区别</li>
+<li>给定三角形ABC和P，判断P时候在ABC内<blockquote>
+<p>面积法、向量叉乘</p>
+</blockquote>
+</li>
+<li>智能指针</li>
+</ul>
+<h5 id="基础语言II"><a href="#基础语言II" class="headerlink" title="基础语言II"></a>基础语言II</h5>]]></content>
       <categories>
         <category>在线编程</category>
       </categories>
       <tags>
+        <tag>nowcoder</tag>
         <tag>剑指offer</tag>
         <tag>程序员面试金典</tag>
-        <tag>nowcoder</tag>
       </tags>
   </entry>
   <entry>
@@ -204,6 +232,22 @@ table th:nth-of-type(6) {
 <td align="center"><i class="fa fa-star-half"></i></td>
 </tr>
 <tr>
+<td align="center">10-I</td>
+<td><a href="https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/" target="_blank" rel="noopener">斐波那契数列</a></td>
+<td align="center"><code>递归</code> <code>迭代</code></td>
+<td align="center">简单</td>
+<td align="center">2020-06-10</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">10-II</td>
+<td><a href="https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/" target="_blank" rel="noopener">青蛙跳台阶问题</a></td>
+<td align="center"><code>递归</code> <code>迭代</code></td>
+<td align="center">简单</td>
+<td align="center">2020-06-13</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
 <td align="center">17</td>
 <td><a href="https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/" target="_blank" rel="noopener">打印从1到最大的n位数</a></td>
 <td align="center"><code>大数运算</code></td>
@@ -225,6 +269,14 @@ table th:nth-of-type(6) {
 <td align="center"><code>单链表</code> <code>快慢指针</code></td>
 <td align="center">简单</td>
 <td align="center">2020-06-05</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">24</td>
+<td><a href="https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/" target="_blank" rel="noopener">反转链表</a></td>
+<td align="center"><code>双指针</code></td>
+<td align="center">简单</td>
+<td align="center">2020-06-10</td>
 <td align="center"><i class="fa fa-star-half"></i></td>
 </tr>
 <tr>
@@ -331,15 +383,79 @@ table th:nth-of-type(6) {
 <td align="center">2020-06-09</td>
 <td align="center"><i class="fa fa-star-half"></i></td>
 </tr>
+<tr>
+<td align="center">09</td>
+<td><a href="https://leetcode-cn.com/problems/palindrome-number/" target="_blank" rel="noopener">回文数</a></td>
+<td align="center"><code>数组</code> <code>字符串</code></td>
+<td align="center">简单</td>
+<td align="center">2020-06-10</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">739</td>
+<td><a href="https://leetcode-cn.com/problems/daily-temperatures/" target="_blank" rel="noopener">每日温度</a></td>
+<td align="center"><code>暴力求解</code> <code>单调栈</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-11</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td><a href="https://leetcode-cn.com/problems/3sum/" target="_blank" rel="noopener">三数之和</a></td>
+<td align="center"><code>排序</code> <code>双指针</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-12</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">70</td>
+<td><a href="https://leetcode-cn.com/problems/climbing-stairs/" target="_blank" rel="noopener">爬楼梯</a></td>
+<td align="center"><code>递归</code> <code>迭代</code></td>
+<td align="center">简单</td>
+<td align="center">2020-06-13</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">1300</td>
+<td><a href="https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/" target="_blank" rel="noopener">转变数组后最接近目标值的数组和</a></td>
+<td align="center"><code>数组</code> <code>排序</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-14</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td><a href="https://leetcode-cn.com/problems/longest-common-prefix/" target="_blank" rel="noopener">最长公共前缀</a></td>
+<td align="center"><code>字符串</code> <code>纵向扫描</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-15</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">297</td>
+<td><a href="https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/" target="_blank" rel="noopener">二叉树的序列化与反序列化</a></td>
+<td align="center"><code>二叉树</code> <code>递归</code></td>
+<td align="center">困难</td>
+<td align="center">2020-06-16</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">1014</td>
+<td><a href="https://leetcode-cn.com/problems/best-sightseeing-pair/" target="_blank" rel="noopener">最佳观光组合</a></td>
+<td align="center"><code>数组</code> <code>调整数组和</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-17</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
 </tbody></table>
 ]]></content>
       <categories>
         <category>在线编程</category>
       </categories>
       <tags>
-        <tag>leetcode</tag>
         <tag>剑指offer</tag>
         <tag>程序员面试金典</tag>
+        <tag>leetcode</tag>
       </tags>
   </entry>
   <entry>
@@ -856,6 +972,7 @@ table th:nth-of-type(1) {
 <h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
 <li><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo官网</a></li>
 <li><a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">NexT主题</a></li>
+<li><a href="https://theme-next.js.org/" target="_blank" rel="noopener">NexT主题8.x</a></li>
 <li><a href="https://hooray.github.io/posts/15e2d21f/" target="_blank" rel="noopener">使用Hexo和Github快速搭建个人博客</a></li>
 <li><a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502" target="_blank" rel="noopener">Hexo博客优化之Next主题美化</a></li>
 <li><a href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener">The Icons 4.7</a></li>
@@ -901,8 +1018,7 @@ table th:nth-of-type(1) {
 
 <h3 id="gitlab绑定域名后原有的仓库url地址ip修改为域名"><a href="#gitlab绑定域名后原有的仓库url地址ip修改为域名" class="headerlink" title="gitlab绑定域名后原有的仓库url地址ip修改为域名"></a>gitlab绑定域名后原有的仓库url地址ip修改为域名</h3><p><a href="https://blog.csdn.net/weianlai/article/details/84264480" target="_blank" rel="noopener">参考博客</a><br>绑定域名后新建的仓库，url显示域名，但原有的仓库url仍然显示ip</p>
 <p>解决方法：<br>修改<code>gitlab.yml</code>配置文件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ vi /opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml</span><br></pre></td></tr></table></figure>
-<p><img src="/images/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/2020-05-25_162735.png" alt=""></p>
+<figure class="highlight diff"><figcaption><span>/var/opt/gitlab/gitlab-rails/etc/gitlab.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">production: &amp;base</span><br><span class="line">  #</span><br><span class="line">  # 1. GitLab app settings</span><br><span class="line">  # <span class="comment">==========================</span></span><br><span class="line"></span><br><span class="line">  ## GitLab settings</span><br><span class="line">  gitlab:</span><br><span class="line">    ## Web server settings (note: host is the FQDN, do not include http://)</span><br><span class="line"><span class="deletion">-    host: 127.0.0.1</span></span><br><span class="line"><span class="addition">+    host: localhost</span></span><br><span class="line">    port: 9080</span><br><span class="line">    https: false</span><br></pre></td></tr></table></figure>
 <p>将host的ip修改为域名，执行<code>gitlab-ctl restart</code>重启Gitlab即可</p>
 <h3 id="git在windows上提交时会自动将LF替换成CRLF的问题"><a href="#git在windows上提交时会自动将LF替换成CRLF的问题" class="headerlink" title="git在windows上提交时会自动将LF替换成CRLF的问题"></a>git在windows上提交时会自动将LF替换成CRLF的问题</h3><p><a href="https://www.cnblogs.com/dahe1989/archive/2019/04/28/10784581.html" target="_blank" rel="noopener">参考博客</a></p>
 <blockquote>
@@ -1509,11 +1625,13 @@ table th:nth-of-type(1) {
 </tr>
 </tbody></table>
 <blockquote>
-<p>注：基数排序的复杂度中，r代表关键字的基数，d代表长度，n代表关键字的个数</p>
+<p>注：基数排序的复杂度中，r代表关键字的基数，d代表长度，n代表关键字的个数<br><a href="https://www.runoob.com/w3cnote/ten-sorting-algorithm.html" target="_blank" rel="noopener">https://www.runoob.com/w3cnote/ten-sorting-algorithm.html</a></p>
 </blockquote>
 </li>
-<li>kmp</li>
-<li>贪心算法</li>
+<li>c++关键字<blockquote>
+<p><a href="https://www.runoob.com/w3cnote/cpp-keyword-intro.html" target="_blank" rel="noopener">https://www.runoob.com/w3cnote/cpp-keyword-intro.html</a></p>
+</blockquote>
+</li>
 </ul>
 <h3 id="智能指针"><a href="#智能指针" class="headerlink" title="智能指针"></a>智能指针</h3><blockquote>
 <p>作用：使用对象关闭内存，避免手动new和delete<br>头文件：<code>memory</code><br>auto_ptr由c++98提供，已被c++11抛弃</p>
@@ -1535,10 +1653,22 @@ table th:nth-of-type(1) {
 </li>
 </ul>
 <h3 id="四种强制类型转换"><a href="#四种强制类型转换" class="headerlink" title="四种强制类型转换"></a>四种强制类型转换</h3><ul>
-<li>const_cast</li>
-<li>static_cast</li>
-<li>dynamic_cast</li>
-<li>reinterpret_cast</li>
+<li>const_cast<blockquote>
+<p>修改类型的const或volatile属性，去除常量性的对象必须是指针或引用</p>
+</blockquote>
+</li>
+<li>static_cast<blockquote>
+<p>类似c语言的强制类型转换，用于c++内置基本数据类型的转换，类指针或引用上行转换是安全的，下行转换没有动态类型检查，是不安全的<br>c++ primer中说道：c++的任何的隐式转换都是使用static_cast来实现</p>
+</blockquote>
+</li>
+<li>dynamic_cast<blockquote>
+<p>动态(面向对象的多态和程序运行时的状态)类型转换，不能用于内置数据类型转换，转换时基类一定含有虚函数，否则会编译报错<br>上行转换时效果和static_cast一样，下行转换时具备类型检查，转换失败抛出异常，比static_cast更安全</p>
+</blockquote>
+</li>
+<li>reinterpret_cast<blockquote>
+<p>主要用途：1. 改变指针或引用的类型；2. 将指针或引用转换为一个足够长度的整形；3. 将整型转换为指针或引用类型<br>reinterpret_cast<type-id>(expression) type-id 必须是一个指针、引用、算术类型、函数针或者成员指针。<br>它可以把一个指针转换成一个整数，也可以把一个整数转换成一个指针（先把一个指针转换成一个整数，在把该整数转换成原类型的指针）<br><strong>请谨慎使用 reinterpret_cast</strong></p>
+</blockquote>
+</li>
 </ul>
 <h3 id="sizeof-空类-构造，虚析构函数，父类仅有方法-子类一个int变量"><a href="#sizeof-空类-构造，虚析构函数，父类仅有方法-子类一个int变量" class="headerlink" title="sizeof 空类+构造，虚析构函数，父类仅有方法+子类一个int变量"></a>sizeof 空类+构造，虚析构函数，父类仅有方法+子类一个int变量</h3><p>环境：windows10 + vs2019</p>
 <blockquote>
