@@ -95,6 +95,25 @@
       </tags>
   </entry>
   <entry>
+    <title>值得推荐的c/c++框架和开源库</title>
+    <url>/d1586572/</url>
+    <content><![CDATA[<p>前言</p>
+<blockquote>
+<p>这里简单记录下值得推荐的<code>c/c++框架和开源库</code></p>
+</blockquote>
+<a id="more"></a>
+
+<p><a href="https://ezlippi.com/blog/2014/12/c-open-project.html" target="_blank" rel="noopener">参考博客</a></p>
+]]></content>
+      <categories>
+        <category>工作学习</category>
+      </categories>
+      <tags>
+        <tag>cpp</tag>
+        <tag>开源库</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>力扣在线刷题</title>
     <url>/fadc7200/</url>
     <content><![CDATA[<p>前言</p>
@@ -289,7 +308,7 @@ table th:nth-of-type(6) {
 <td align="center"><i class="fa fa-star-half"></i></td>
 </tr>
 </tbody></table>
-<h3 id="每日一题"><a href="#每日一题" class="headerlink" title="每日一题"></a>每日一题</h3><table>
+<h3 id="每日一题"><a href="#每日一题" class="headerlink" title="每日一题"></a>每日一题</h3><h4 id="2020年6月"><a href="#2020年6月" class="headerlink" title="2020年6月"></a>2020年6月</h4><table>
 <thead>
 <tr>
 <th align="center">#</th>
@@ -452,8 +471,48 @@ table th:nth-of-type(6) {
 <td align="center">2020-06-22</td>
 <td align="center"><i class="fa fa-thumbs-down"></i></td>
 </tr>
+<tr>
+<td align="center">67</td>
+<td><a href="https://leetcode-cn.com/problems/add-binary/" target="_blank" rel="noopener">二进制求和</a></td>
+<td align="center"><code>string</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-23</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td><a href="https://leetcode-cn.com/problems/3sum-closest/" target="_blank" rel="noopener">最接近的三数之和</a></td>
+<td align="center"><code>排序</code> <code>双指针</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-24</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">139</td>
+<td><a href="https://leetcode-cn.com/problems/word-break/" target="_blank" rel="noopener">单词拆分</a></td>
+<td align="center"><code>动态规划</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-25</td>
+<td align="center"><i class="fa fa-thumbs-down"></i></td>
+</tr>
+<tr>
+<td align="center">JD02.01</td>
+<td><a href="https://leetcode-cn.com/problems/remove-duplicate-node-lcci/" target="_blank" rel="noopener">移除重复节点</a></td>
+<td align="center"><code>哈希表</code></td>
+<td align="center">简单</td>
+<td align="center">2020-06-26</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">41</td>
+<td><a href="https://leetcode-cn.com/problems/first-missing-positive/" target="_blank" rel="noopener">缺失的第一个正数</a></td>
+<td align="center"><code>哈希表</code></td>
+<td align="center">困难</td>
+<td align="center">2020-06-27</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
 </tbody></table>
-]]></content>
+<h4 id="2020年7月"><a href="#2020年7月" class="headerlink" title="2020年7月"></a>2020年7月</h4>]]></content>
       <categories>
         <category>在线编程</category>
       </categories>
@@ -515,7 +574,7 @@ table th:nth-of-type(6) {
 <p>静态多态：重载、模板多态<br>动态多态：用虚函数机制实现的，在运行期间动态绑定，使用了虚函数，会增加访问内存开销，降低效率</p>
 </blockquote>
 </li>
-<li><code>++i</code>和<code>i++</code><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>&amp; <span class="keyword">int</span>::<span class="keyword">operator</span>++（）</span><br><span class="line">&#123;</span><br><span class="line">    *<span class="keyword">this</span> +=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span>  <span class="keyword">int</span>::<span class="keyword">operator</span>（<span class="keyword">int</span>）</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> oldValue = *<span class="keyword">this</span>;</span><br><span class="line">    ++(*<span class="keyword">this</span>);</span><br><span class="line">    <span class="keyword">return</span> oldValue;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><code>++i</code>和<code>i++</code><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>&amp; <span class="keyword">int</span>::<span class="keyword">operator</span>++()</span><br><span class="line">&#123;</span><br><span class="line">    *<span class="keyword">this</span> += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">const</span> <span class="keyword">int</span> <span class="title">int::operator</span><span class="params">(<span class="keyword">int</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> oldValue = *<span class="keyword">this</span>;</span><br><span class="line">    ++(*<span class="keyword">this</span>);</span><br><span class="line">    <span class="keyword">return</span> oldValue;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li>写个函数在<code>main</code>函数执行前先运行<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">before</span><span class="params">()</span> __<span class="title">attribute__</span><span class="params">((constructor))</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">after</span><span class="params">()</span> __<span class="title">attribute__</span><span class="params">((destructor))</span></span>;</span><br></pre></td></tr></table></figure></li>
 <li>四行代码的区别<blockquote>
 <p><a href="https://blog.csdn.net/u012306391/article/details/102837750" target="_blank" rel="noopener">https://blog.csdn.net/u012306391/article/details/102837750</a></p>
@@ -600,7 +659,10 @@ table th:nth-of-type(6) {
 </blockquote>
 </li>
 </ul>
-<h5 id="面向对象与泛型编程"><a href="#面向对象与泛型编程" class="headerlink" title="面向对象与泛型编程"></a>面向对象与泛型编程</h5><h5 id="编译与底层"><a href="#编译与底层" class="headerlink" title="编译与底层"></a>编译与底层</h5><h5 id="c-11"><a href="#c-11" class="headerlink" title="c++11"></a>c++11</h5><h4 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h4><h4 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h4><h4 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h4><h4 id="算法与数据结构"><a href="#算法与数据结构" class="headerlink" title="算法与数据结构"></a>算法与数据结构</h4><h4 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h4>]]></content>
+<h5 id="面向对象与泛型编程"><a href="#面向对象与泛型编程" class="headerlink" title="面向对象与泛型编程"></a>面向对象与泛型编程</h5><ul>
+<li>右值引用、移动语义和完美转发</li>
+</ul>
+<h5 id="编译与底层"><a href="#编译与底层" class="headerlink" title="编译与底层"></a>编译与底层</h5><h5 id="c-11"><a href="#c-11" class="headerlink" title="c++11"></a>c++11</h5><h4 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h4><h4 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h4><h4 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h4><h4 id="算法与数据结构"><a href="#算法与数据结构" class="headerlink" title="算法与数据结构"></a>算法与数据结构</h4><h4 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h4>]]></content>
       <categories>
         <category>在线编程</category>
       </categories>
@@ -1591,7 +1653,18 @@ table th:nth-of-type(1) {
 <h3 id="tcp协议"><a href="#tcp协议" class="headerlink" title="tcp协议"></a>tcp协议</h3><h4 id="建立与终止"><a href="#建立与终止" class="headerlink" title="建立与终止"></a>建立与终止</h4><ul>
 <li>三次握手四次挥手</li>
 </ul>
-<h4 id="重传机制"><a href="#重传机制" class="headerlink" title="重传机制"></a>重传机制</h4><h4 id="滑动窗口"><a href="#滑动窗口" class="headerlink" title="滑动窗口"></a>滑动窗口</h4><h4 id="拥塞控制"><a href="#拥塞控制" class="headerlink" title="拥塞控制"></a>拥塞控制</h4><h4 id="流量控制"><a href="#流量控制" class="headerlink" title="流量控制"></a>流量控制</h4><h4 id="tcp粘包"><a href="#tcp粘包" class="headerlink" title="tcp粘包"></a>tcp粘包</h4><ul>
+<h4 id="重传机制"><a href="#重传机制" class="headerlink" title="重传机制"></a>重传机制</h4><h4 id="滑动窗口"><a href="#滑动窗口" class="headerlink" title="滑动窗口"></a>滑动窗口</h4><h4 id="拥塞控制"><a href="#拥塞控制" class="headerlink" title="拥塞控制"></a>拥塞控制</h4><p>拥塞控制是作用于网络的，它是防止过多的数据注入到网络中，避免出现网络负载过大的情况，由拥塞窗口实现</p>
+<ul>
+<li>慢启动</li>
+<li>拥塞避免</li>
+<li>快速重传</li>
+<li>快速恢复</li>
+</ul>
+<h4 id="流量控制"><a href="#流量控制" class="headerlink" title="流量控制"></a>流量控制</h4><p>流量控制是作用于接收者的，它是控制发送者的发送速度从而使接收者来得及接收，防止分组丢失的，由滑动窗口实现</p>
+<ul>
+<li>滑动窗口</li>
+</ul>
+<h4 id="tcp粘包"><a href="#tcp粘包" class="headerlink" title="tcp粘包"></a>tcp粘包</h4><ul>
 <li><p>产生粘包的两种情况</p>
 <blockquote>
 <ol>
