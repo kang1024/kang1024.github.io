@@ -320,6 +320,30 @@ table th:nth-of-type(6) {
 </tr>
 </thead>
 <tbody><tr>
+<td align="center">1431</td>
+<td><a href="https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/" target="_blank" rel="noopener">拥有最多糖果的孩子</a></td>
+<td align="center"><code>vector最大值</code></td>
+<td align="center">简单</td>
+<td align="center">2020-06-01</td>
+<td align="center"><i class="fa fa-star"></i></td>
+</tr>
+<tr>
+<td align="center">JZ65</td>
+<td><a href="https://leetcode-cn.com/problems/qiu-12n-lcof/" target="_blank" rel="noopener">求1+2+…+n</a></td>
+<td align="center">``</td>
+<td align="center">中等</td>
+<td align="center">2020-06-02</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">837</td>
+<td><a href="https://leetcode-cn.com/problems/new-21-game/" target="_blank" rel="noopener">新21点</a></td>
+<td align="center">``</td>
+<td align="center">中等</td>
+<td align="center">2020-06-03</td>
+<td align="center"></td>
+</tr>
+<tr>
 <td align="center">238</td>
 <td><a href="https://leetcode-cn.com/problems/product-of-array-except-self/" target="_blank" rel="noopener">除自身以外数组的乘积</a></td>
 <td align="center"><code>数组</code> <code>左右累乘</code></td>
@@ -511,8 +535,60 @@ table th:nth-of-type(6) {
 <td align="center">2020-06-27</td>
 <td align="center"><i class="fa fa-star-half"></i></td>
 </tr>
+<tr>
+<td align="center">209</td>
+<td><a href="https://leetcode-cn.com/problems/minimum-size-subarray-sum/" target="_blank" rel="noopener">长度最小的子数组</a></td>
+<td align="center"><code>双指针</code> <code>二分</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-28</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">215</td>
+<td><a href="https://leetcode-cn.com/problems/kth-largest-element-in-an-array/" target="_blank" rel="noopener">数组中的第K个最大元素</a></td>
+<td align="center"><code>堆排序</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-29</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">09</td>
+<td><a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/" target="_blank" rel="noopener">用两个栈实现队列</a></td>
+<td align="center"><code>堆</code> <code>队列</code></td>
+<td align="center">简单</td>
+<td align="center">2020-06-30</td>
+<td align="center"><i class="fa fa-star"></i></td>
+</tr>
 </tbody></table>
-<h4 id="2020年7月"><a href="#2020年7月" class="headerlink" title="2020年7月"></a>2020年7月</h4>]]></content>
+<h4 id="2020年7月"><a href="#2020年7月" class="headerlink" title="2020年7月"></a>2020年7月</h4><table>
+<thead>
+<tr>
+<th align="center">#</th>
+<th>题名</th>
+<th align="center">知识点</th>
+<th align="center">难度</th>
+<th align="center">提交时间</th>
+<th align="center">start</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">718</td>
+<td><a href="https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/" target="_blank" rel="noopener">最长重复子数组</a></td>
+<td align="center"><code>动态规划</code></td>
+<td align="center">中等</td>
+<td align="center">2020-07-01</td>
+<td align="center"><i class="fa fa-star-half"></i></td>
+</tr>
+<tr>
+<td align="center">378</td>
+<td><a href="https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/" target="_blank" rel="noopener">有序矩阵中第K小的元素</a></td>
+<td align="center"><code>排序</code></td>
+<td align="center">中等</td>
+<td align="center">2020-07-02</td>
+<td align="center"><i class="fa fa-star"></i></td>
+</tr>
+</tbody></table>
+]]></content>
       <categories>
         <category>在线编程</category>
       </categories>
@@ -534,7 +610,95 @@ table th:nth-of-type(6) {
 <div class="note info"><p><a href="https://www.nowcoder.com/" target="_blank" rel="noopener">牛客官网</a></p>
 </div>
 
-<h3 id="华为机试"><a href="#华为机试" class="headerlink" title="华为机试"></a>华为机试</h3><p><a href="https://www.nowcoder.com/ta/huawei" target="_blank" rel="noopener">https://www.nowcoder.com/ta/huawei</a></p>
+<h3 id="华为机试"><a href="#华为机试" class="headerlink" title="华为机试"></a>华为机试</h3><p><a href="https://www.nowcoder.com/ta/huawei" target="_blank" rel="noopener">在线练习</a></p>
+<table>
+<thead>
+<tr>
+<th align="center">题号</th>
+<th>题名</th>
+<th align="center">知识点</th>
+<th align="center">难度</th>
+<th align="center">提交时间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">JC001</td>
+<td>字符串最后一个单词的长度</td>
+<td align="center"><code>字符串</code></td>
+<td align="center">较难</td>
+<td align="center">2020-06-28</td>
+</tr>
+<tr>
+<td align="center">JC002</td>
+<td>计算字符个数</td>
+<td align="center"><code>字符串</code> <code>哈希表</code></td>
+<td align="center">较难</td>
+<td align="center">2020-06-28</td>
+</tr>
+<tr>
+<td align="center">JC003</td>
+<td>明明的随机数</td>
+<td align="center"><code>数组</code></td>
+<td align="center">较难</td>
+<td align="center">2020-06-28</td>
+</tr>
+<tr>
+<td align="center">JC004</td>
+<td>字符串分隔</td>
+<td align="center"><code>字符串</code></td>
+<td align="center">较难</td>
+<td align="center">2020-06-29</td>
+</tr>
+<tr>
+<td align="center">JC005</td>
+<td>进制转换</td>
+<td align="center"><code>字符串</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-29</td>
+</tr>
+<tr>
+<td align="center">JC006</td>
+<td>质数因子</td>
+<td align="center"><code>质数</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-29</td>
+</tr>
+<tr>
+<td align="center">JC007</td>
+<td>取近似值</td>
+<td align="center"><code>数学</code></td>
+<td align="center">入门</td>
+<td align="center">2020-06-29</td>
+</tr>
+<tr>
+<td align="center">JC008</td>
+<td>合并表记录</td>
+<td align="center"><code>字典</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-29</td>
+</tr>
+<tr>
+<td align="center">JC009</td>
+<td>提取不重复的整数</td>
+<td align="center"><code>数组</code> <code>哈希</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-29</td>
+</tr>
+<tr>
+<td align="center">JC010</td>
+<td>字符个数统计</td>
+<td align="center"><code>字符串</code> <code>哈希</code></td>
+<td align="center">中等</td>
+<td align="center">2020-06-29</td>
+</tr>
+<tr>
+<td align="center">JC011</td>
+<td>数字颠倒</td>
+<td align="center"><code>字符串</code></td>
+<td align="center">简单</td>
+<td align="center">2020-06-29</td>
+</tr>
+</tbody></table>
 <h3 id="面试宝典"><a href="#面试宝典" class="headerlink" title="面试宝典"></a>面试宝典</h3><p><a href="https://www.nowcoder.com/tutorial/93/8ba2828006dd42879f3a9029eabde9f1" target="_blank" rel="noopener">https://www.nowcoder.com/tutorial/93/8ba2828006dd42879f3a9029eabde9f1</a></p>
 <h4 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h4><h5 id="基础语言I"><a href="#基础语言I" class="headerlink" title="基础语言I"></a>基础语言I</h5><ul>
 <li>static关键字</li>
