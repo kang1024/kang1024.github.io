@@ -95,6 +95,137 @@
       </tags>
   </entry>
   <entry>
+    <title>linux常用命令</title>
+    <url>/fe4ef317/</url>
+    <content><![CDATA[<p>前言</p>
+<blockquote>
+<p>这里简单记录下<code>linux常用命令</code>总结</p>
+</blockquote>
+<a id="more"></a>
+
+<h3 id="linux常用命令"><a href="#linux常用命令" class="headerlink" title="linux常用命令"></a>linux常用命令</h3><p><a href="https://blog.csdn.net/ysuncn/article/details/1721249" target="_blank" rel="noopener">Linux常用命令分类</a><br><a href="https://www.jianshu.com/p/9e2e87cf360f" target="_blank" rel="noopener">linux常用命令大全</a></p>
+<h4 id="目录文件类命令"><a href="#目录文件类命令" class="headerlink" title="目录文件类命令"></a>目录文件类命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span>              <span class="comment"># 切换目录</span></span><br><span class="line">dir             <span class="comment"># 显示目录内容</span></span><br><span class="line">ls              <span class="comment"># 显示目录内容</span></span><br><span class="line">cat             <span class="comment"># 显示文件内容，适合小文件</span></span><br><span class="line">less            <span class="comment"># 分屏显示文件内容，可前后翻阅</span></span><br><span class="line">more            <span class="comment"># 分屏显示文件内容，不可向前翻阅</span></span><br><span class="line">head            <span class="comment"># 显示文件头部内容</span></span><br><span class="line">tail            <span class="comment"># 显示文件尾部内容</span></span><br><span class="line">touch           <span class="comment"># 创建文件或更新文件访问时间</span></span><br><span class="line">mkdir           <span class="comment"># 创建目录</span></span><br><span class="line">rmdir           <span class="comment"># 删除目录</span></span><br><span class="line">rm              <span class="comment"># 删除文件或目录(-r)</span></span><br><span class="line">cp              <span class="comment"># 复制文件或目录</span></span><br><span class="line">mv              <span class="comment"># 移动或改名</span></span><br><span class="line">chown           <span class="comment"># 修改文件所有者</span></span><br><span class="line">chgrp           <span class="comment"># 修改文件所属组</span></span><br><span class="line">chmod           <span class="comment"># 修改文件目录权限</span></span><br><span class="line">find            <span class="comment"># 查找文件或目录</span></span><br><span class="line">tar             <span class="comment"># 打包工具</span></span><br><span class="line">gzip/gunzip     <span class="comment"># 压缩工具</span></span><br><span class="line">bzip2/bunzip2   <span class="comment"># 压缩工具</span></span><br><span class="line">vi              <span class="comment"># 文本编辑工具</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="用户类命令"><a href="#用户类命令" class="headerlink" title="用户类命令"></a>用户类命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">useradd         <span class="comment"># 添加用户</span></span><br><span class="line">userdel         <span class="comment"># 删除用户</span></span><br><span class="line">usermod         <span class="comment"># 修改用户属性</span></span><br><span class="line">passwd          <span class="comment"># 设置密码</span></span><br><span class="line">groupadd        <span class="comment"># 添加组</span></span><br><span class="line">groupmod        <span class="comment"># 修改组属性</span></span><br><span class="line">groupdel        <span class="comment"># 删除组</span></span><br><span class="line">gpasswd         <span class="comment"># 将用户添加到组或从组中删除</span></span><br><span class="line">id              <span class="comment"># 显示当前用户ID属性</span></span><br><span class="line">who             <span class="comment"># 显示当前登录的用户</span></span><br><span class="line">w               <span class="comment"># 同上，略有不同</span></span><br><span class="line">chfn            <span class="comment"># 修改用户信息</span></span><br><span class="line">su              <span class="comment"># 切换用户</span></span><br><span class="line">chsh            <span class="comment"># 修改登录Shell</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="帮助类命令"><a href="#帮助类命令" class="headerlink" title="帮助类命令"></a>帮助类命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">help</span>            <span class="comment"># 显示内部命令帮助</span></span><br><span class="line">man             <span class="comment"># 查看手册</span></span><br><span class="line">info            <span class="comment"># 查看texinfo格式手册</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="文件系统类命令"><a href="#文件系统类命令" class="headerlink" title="文件系统类命令"></a>文件系统类命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">fdisk           <span class="comment"># 分区命令</span></span><br><span class="line">mkfs            <span class="comment"># 格式化命令</span></span><br><span class="line">e2label         <span class="comment"># 设置卷标</span></span><br><span class="line">mount           <span class="comment"># 挂载文件系统</span></span><br><span class="line">umount          <span class="comment"># 解除挂载文件系统</span></span><br><span class="line">fsck            <span class="comment"># 文件系统检查</span></span><br><span class="line">mkswap          <span class="comment"># 创建swap文件系统</span></span><br><span class="line">quotacheck      <span class="comment"># 检查配额</span></span><br><span class="line">quotaon         <span class="comment"># 启用配额</span></span><br><span class="line">quotaoff        <span class="comment"># 关闭配额</span></span><br><span class="line">edquota         <span class="comment"># 设置用户磁盘配额</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="软件包管理"><a href="#软件包管理" class="headerlink" title="软件包管理"></a>软件包管理</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rpm             <span class="comment"># redhat包管理工具</span></span><br><span class="line">apt             <span class="comment"># ubuntu包管理工具</span></span><br><span class="line">yum             <span class="comment"># centos包管理工具</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="系统管理命令"><a href="#系统管理命令" class="headerlink" title="系统管理命令"></a>系统管理命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">date            <span class="comment"># 显示/设置系统时间</span></span><br><span class="line">shutdown        <span class="comment"># 关闭系统</span></span><br><span class="line">reboot          <span class="comment"># 重启系统</span></span><br><span class="line">halt            <span class="comment"># 关闭系统</span></span><br><span class="line">runlevel        <span class="comment"># 显示运行级</span></span><br><span class="line">init            <span class="comment"># 切换运行级</span></span><br><span class="line">grub-install    <span class="comment"># 安装GRUB</span></span><br><span class="line">cal             <span class="comment"># 显示日历</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="内核管理类命令"><a href="#内核管理类命令" class="headerlink" title="内核管理类命令"></a>内核管理类命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">lsmod           <span class="comment"># 显示已加载内核模块</span></span><br><span class="line">insmod          <span class="comment"># 添加内核模块</span></span><br><span class="line">modprobe        <span class="comment"># 添加内核模块</span></span><br><span class="line">modinfo         <span class="comment"># 显示内核模块信息</span></span><br><span class="line">rmmod           <span class="comment"># 移除内核模块</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="进程管理类命令"><a href="#进程管理类命令" class="headerlink" title="进程管理类命令"></a>进程管理类命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ps              <span class="comment"># 显示系统进程</span></span><br><span class="line">top             <span class="comment"># 进程管理工具</span></span><br><span class="line">pstree          <span class="comment"># 显示进程树</span></span><br><span class="line">pidof           <span class="comment"># 显示指定程序的进程号</span></span><br><span class="line">nice            <span class="comment"># 设置进程优先级</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="网络基础类命令"><a href="#网络基础类命令" class="headerlink" title="网络基础类命令"></a>网络基础类命令</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ifconfig        <span class="comment"># 查看／设置网卡参数</span></span><br><span class="line">ifup            <span class="comment"># 启用网络设备</span></span><br><span class="line">ifdown          <span class="comment"># 关闭网络设备</span></span><br><span class="line">lsof            <span class="comment"># 显示指定端口由谁监听</span></span><br><span class="line">sysctl          <span class="comment"># 控制TCP/IP内核参数</span></span><br><span class="line">adsl-setup      <span class="comment"># 设置ADSL连接参数</span></span><br><span class="line">adsl-status     <span class="comment"># 显示ADSL连接状态</span></span><br><span class="line">adsl-connect    <span class="comment"># 启动ADSL连接</span></span><br><span class="line">netstat         <span class="comment"># 显示系统网络状态信息</span></span><br><span class="line">route           <span class="comment"># 查看路由表</span></span><br><span class="line">ip              <span class="comment"># 强大的网络管理工具</span></span><br><span class="line">ping            <span class="comment"># 测试连通性</span></span><br><span class="line">traceroute      <span class="comment"># 路径跟踪</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="gdb调试常用命令"><a href="#gdb调试常用命令" class="headerlink" title="gdb调试常用命令"></a>gdb调试常用命令</h3><p><a href="https://www.cnblogs.com/HKUI/p/8955443.html" target="_blank" rel="noopener">参考博客</a><br><strong>参数列表</strong></p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>命令缩写</th>
+<th>命令说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>list</td>
+<td>l</td>
+<td>显示多行源代码</td>
+</tr>
+<tr>
+<td>break</td>
+<td>b</td>
+<td>设置断点，程序运行到断点的位置会停下来</td>
+</tr>
+<tr>
+<td>info</td>
+<td>i</td>
+<td>描述程序的状态</td>
+</tr>
+<tr>
+<td>run</td>
+<td>r</td>
+<td>开始运行程序</td>
+</tr>
+<tr>
+<td>display</td>
+<td>disp</td>
+<td>跟踪查看某个变量，每次停下来都显示它的值</td>
+</tr>
+<tr>
+<td>step</td>
+<td>s</td>
+<td>执行下一行，逐语句，会进入函数内部执行</td>
+</tr>
+<tr>
+<td>next</td>
+<td>n</td>
+<td>执行下一行，逐过程，不会进入函数内部执行</td>
+</tr>
+<tr>
+<td>print</td>
+<td>p</td>
+<td>打印内部变量值</td>
+</tr>
+<tr>
+<td>continue</td>
+<td>c</td>
+<td>继续程序的运行，直到遇到下一个断点</td>
+</tr>
+<tr>
+<td>set var name=v</td>
+<td>-</td>
+<td>设置变量的值</td>
+</tr>
+<tr>
+<td>start</td>
+<td>st</td>
+<td>开始执行程序，在main函数的第一条语句前面停下来</td>
+</tr>
+<tr>
+<td>file</td>
+<td>-</td>
+<td>装入需要调试的程序</td>
+</tr>
+<tr>
+<td>kill</td>
+<td>k</td>
+<td>终止正在调试的程序</td>
+</tr>
+<tr>
+<td>watch</td>
+<td>-</td>
+<td>监视变量值的变化</td>
+</tr>
+<tr>
+<td>backtrace</td>
+<td>bt</td>
+<td>查看函数调用信息(堆栈)</td>
+</tr>
+<tr>
+<td>frame</td>
+<td>f</td>
+<td>查看栈帧f n切换到编号为n的栈</td>
+</tr>
+<tr>
+<td>quit</td>
+<td>q</td>
+<td>退出GDB环境</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>工作学习</category>
+      </categories>
+      <tags>
+        <tag>linux， gdb</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>值得推荐的c/c++框架和开源库</title>
     <url>/d1586572/</url>
     <content><![CDATA[<p>前言</p>
