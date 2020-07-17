@@ -874,11 +874,19 @@ table th:nth-of-type(6) {
 <td align="center"><i class="fa fa-thumbs-down"></i></td>
 </tr>
 <tr>
+<td align="center">35</td>
+<td><a href="https://leetcode-cn.com/problems/search-insert-position/" target="_blank" rel="noopener">搜索插入位置</a></td>
+<td align="center"><code>二分查找</code></td>
+<td align="center">简单</td>
+<td align="center">2020-07-17</td>
+<td align="center"><i class="fa fa-star"></i></td>
+</tr>
+<tr>
 <td align="center"></td>
 <td><a href=""></a></td>
 <td align="center">``</td>
 <td align="center">简单</td>
-<td align="center">2020-07-17</td>
+<td align="center">2020-07-18</td>
 <td align="center"><i class="fa fa-star"></i></td>
 </tr>
 </tbody></table>
