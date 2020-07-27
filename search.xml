@@ -225,7 +225,8 @@
         <category>工作学习</category>
       </categories>
       <tags>
-        <tag>linux， gdb</tag>
+        <tag>linux</tag>
+        <tag>gdb</tag>
       </tags>
   </entry>
   <entry>
@@ -2474,7 +2475,7 @@ table th:nth-of-type(1) {
 </blockquote>
 <h3 id="模板多态和虚多态"><a href="#模板多态和虚多态" class="headerlink" title="模板多态和虚多态"></a>模板多态和虚多态</h3><h3 id="c-11"><a href="#c-11" class="headerlink" title="c++11"></a>c++11</h3>]]></content>
       <categories>
-        <category>cpp相关</category>
+        <category>Cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
@@ -2540,7 +2541,7 @@ table th:nth-of-type(1) {
 
 <h3 id="2-幻数-魔法数"><a href="#2-幻数-魔法数" class="headerlink" title="2. 幻数(魔法数)"></a>2. 幻数(魔法数)</h3><h3 id="3-全局变量"><a href="#3-全局变量" class="headerlink" title="3. 全局变量"></a>3. 全局变量</h3><h2 id="第二章-语法问题"><a href="#第二章-语法问题" class="headerlink" title="第二章 语法问题"></a>第二章 语法问题</h2><h3 id="13-数组定义和初始化混淆"><a href="#13-数组定义和初始化混淆" class="headerlink" title="13. 数组定义和初始化混淆"></a>13. 数组定义和初始化混淆</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>* p = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>); <span class="comment">//一个int对象，初始化为10</span></span><br><span class="line"><span class="keyword">int</span>* q = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">10</span>]; <span class="comment">//包含10个int的数组</span></span><br><span class="line"><span class="function"><span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">vec</span><span class="params">(<span class="number">10</span>)</span></span>; <span class="comment">//直接用标准可的组件，不用显式申请内存，也不用显式回收</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>cpp相关</category>
+        <category>Cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
@@ -2660,7 +2661,7 @@ table th:nth-of-type(1) {
 <p>方法2：(该方法必须事先知道，x和y的类型，且二者类型一致)</p>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> x = <span class="number">100</span>;</span><br><span class="line"><span class="keyword">int</span> y = <span class="number">200</span>;</span><br><span class="line"><span class="keyword">int</span> min = <span class="built_in">std</span>::min&lt;<span class="keyword">int</span>&gt;(x, y);</span><br><span class="line"><span class="keyword">int</span> max = <span class="built_in">std</span>::max&lt;<span class="keyword">int</span>&gt;(x, y);</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>cpp相关</category>
+        <category>Cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
@@ -3009,7 +3010,7 @@ table th:nth-of-type(1) {
 <h3 id="SQLite管理工具"><a href="#SQLite管理工具" class="headerlink" title="SQLite管理工具"></a>SQLite管理工具</h3><p>可视化管理工具，个人使用<a href="https://sqlitestudio.pl/" target="_blank" rel="noopener">SQLiteStudio</a></p>
 ]]></content>
       <categories>
-        <category>cpp相关</category>
+        <category>Cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
@@ -3433,7 +3434,7 @@ table th:nth-of-type(1) {
 <h3 id="第16章-使用C-11开发一个简单的通信程序"><a href="#第16章-使用C-11开发一个简单的通信程序" class="headerlink" title="第16章 使用C++11开发一个简单的通信程序"></a>第16章 使用C++11开发一个简单的通信程序</h3><p><a href="https://www.cnblogs.com/qicosmos/p/3461116.html" target="_blank" rel="noopener">原文博客</a><br><a href="https://github.com/kang1024/daily/tree/master/visual%20studio/cxx11/16_asio_msg" target="_blank" rel="noopener">查看源码</a></p>
 ]]></content>
       <categories>
-        <category>cpp相关</category>
+        <category>Cpp相关</category>
       </categories>
       <tags>
         <tag>cpp</tag>
