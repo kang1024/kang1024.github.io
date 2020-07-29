@@ -971,12 +971,12 @@ table th:nth-of-type(6) {
 <td align="center"><i class="fa fa-star"></i></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td><a href=""></a></td>
+<td align="center">LCP13</td>
+<td><a href="https://leetcode-cn.com/problems/xun-bao/" target="_blank" rel="noopener">寻宝</a></td>
 <td align="center"><code>?</code></td>
-<td align="center">简单</td>
+<td align="center">困难</td>
 <td align="center">2020-07-29</td>
-<td align="center"><i class="fa fa-star"></i></td>
+<td align="center"><i class="fa fa-thumbs-down"></i></td>
 </tr>
 <tr>
 <td align="center"></td>
@@ -2094,6 +2094,16 @@ table th:nth-of-type(1) {
 </tbody></table>
 <p><code>Github</code>上一些开源代码中是<code>LF</code>换行，但Windows平台使用的<code>CRLF</code>换行符。git默认配置了<code>autocrlf</code>为<code>true</code>，因此Windows下使用git默认所有代码<code>LF</code>都会被替换成<code>CRLF</code>，代码提交时显示0行差异，但仍会被认为是差异文件。<br>修改git全局配置，禁用git自动将<code>LF</code>转为<code>CRLF</code>：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global core.autocrlf <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h3 id="宝塔gitlab修改管理员密码"><a href="#宝塔gitlab修改管理员密码" class="headerlink" title="宝塔gitlab修改管理员密码"></a>宝塔gitlab修改管理员密码</h3><p><a href="https://www.cnblogs.com/richerdyoung/p/12009232.html" target="_blank" rel="noopener">【Gitlab】宝塔gitlab 修改管理员账号密码</a></p>
+<ol>
+<li>切换目录：<code>cd /opt/gitlab/bin</code></li>
+<li>执行<code>sudo gitlab-rails console production</code>命令开始初始化密码</li>
+<li>在<code>irb(main):001:0&gt;</code>后通过<code>u=User.where(id:1).first</code>来查找与切换账号<strong>(<code>User.all</code>可以查看所有用户)</strong></li>
+<li>执行<code>u.password=&#39;12345678&#39;</code>设置密码为12345678</li>
+<li>执行<code>u.save!</code>进行保存</li>
+<li>执行<code>exit</code>退出设置</li>
+<li>通过账号<em>root/12345678</em>登录gitlab</li>
+</ol>
 ]]></content>
       <categories>
         <category>常见问题</category>
