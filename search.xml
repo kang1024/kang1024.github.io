@@ -1167,26 +1167,26 @@ table th:nth-of-type(6) {
 <td align="center"><i class="fa fa-star"></i></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td><a href=""></a></td>
-<td align="center"><code>?</code></td>
+<td align="center">111</td>
+<td><a href="https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/" target="_blank" rel="noopener">二叉树的最小深度</a></td>
+<td align="center"><code>二叉树</code> <code>dfs</code></td>
 <td align="center">简单</td>
 <td align="center">2020-08-21</td>
 <td align="center"><i class="fa fa-star"></i></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td><a href=""></a></td>
+<td align="center">679</td>
+<td><a href="https://leetcode-cn.com/problems/24-game/" target="_blank" rel="noopener">24 点游戏</a></td>
 <td align="center"><code>?</code></td>
-<td align="center">简单</td>
+<td align="center">困难</td>
 <td align="center">2020-08-22</td>
 <td align="center"><i class="fa fa-star"></i></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td><a href=""></a></td>
+<td align="center">201</td>
+<td><a href="https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/" target="_blank" rel="noopener">数字范围按位与</a></td>
 <td align="center"><code>?</code></td>
-<td align="center">简单</td>
+<td align="center">中等</td>
 <td align="center">2020-08-23</td>
 <td align="center"><i class="fa fa-star"></i></td>
 </tr>
@@ -1263,9 +1263,9 @@ table th:nth-of-type(6) {
         <category>在线编程</category>
       </categories>
       <tags>
+        <tag>leetcode</tag>
         <tag>剑指offer</tag>
         <tag>程序员面试金典</tag>
-        <tag>leetcode</tag>
       </tags>
   </entry>
   <entry>
@@ -1501,9 +1501,9 @@ table th:nth-of-type(6) {
         <category>在线编程</category>
       </categories>
       <tags>
-        <tag>nowcoder</tag>
         <tag>剑指offer</tag>
         <tag>程序员面试金典</tag>
+        <tag>nowcoder</tag>
       </tags>
   </entry>
   <entry>
