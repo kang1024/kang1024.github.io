@@ -2035,8 +2035,8 @@ table th:nth-of-type(1) {
         <category>Hexo博客</category>
       </categories>
       <tags>
-        <tag>github</tag>
         <tag>hexo</tag>
+        <tag>github</tag>
         <tag>coding</tag>
       </tags>
   </entry>
@@ -2049,7 +2049,7 @@ table th:nth-of-type(1) {
 </blockquote>
 <a id="more"></a>
 
-<h3 id="git-push提示HttpRequestException-encountered，需要重新输入账号密码验证"><a href="#git-push提示HttpRequestException-encountered，需要重新输入账号密码验证" class="headerlink" title="git push提示HttpRequestException encountered，需要重新输入账号密码验证"></a>git push提示<code>HttpRequestException encountered</code>，需要重新输入账号密码验证</h3><p><a href="https://www.cnblogs.com/chucklu/p/5650927.html" target="_blank" rel="noopener">参考博客</a><br>提示信息：</p>
+<h3 id="git-push提示HttpRequestException-encountered，需要重新输入账号密码验证"><a href="#git-push提示HttpRequestException-encountered，需要重新输入账号密码验证" class="headerlink" title="git push提示HttpRequestException encountered，需要重新输入账号密码验证"></a>git push提示<code>HttpRequestException encountered</code>，需要重新输入账号密码验证</h3><p><a href="https://www.cnblogs.com/chucklu/p/5650927.html" target="_blank" rel="noopener">让git for windows记住密码</a><br>提示信息：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">fatal: HttpRequestException encountered.</span><br><span class="line">   发送请求时出错</span><br></pre></td></tr></table></figure>
 <p>解决方法：<br>进入git bash终端，输入如下命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global credential.helper store</span><br></pre></td></tr></table></figure>
@@ -2059,16 +2059,16 @@ table th:nth-of-type(1) {
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[credential]</span><br><span class="line">	helper &#x3D; store</span><br></pre></td></tr></table></figure>
 
 <p>重新开启git bash会发现git push时不用再输入用户名和密码，此时如果还是提示<code>fatal: HttpRequestException encountered.</code>，安装<a href="https://github.com/microsoft/Git-Credential-Manager-for-Windows/releases" target="_blank" rel="noopener">GCMW</a>即可。</p>
-<h3 id="基于宝塔安装的github修改配置后重启服务nginx-timeout"><a href="#基于宝塔安装的github修改配置后重启服务nginx-timeout" class="headerlink" title="基于宝塔安装的github修改配置后重启服务nginx timeout"></a>基于宝塔安装的github修改配置后重启服务<code>nginx timeout</code></h3><p><a href="https://blog.csdn.net/weixin_33978044/article/details/91423781" target="_blank" rel="noopener">参考博客</a><br>提示信息：</p>
+<h3 id="基于宝塔安装的github修改配置后重启服务nginx-timeout"><a href="#基于宝塔安装的github修改配置后重启服务nginx-timeout" class="headerlink" title="基于宝塔安装的github修改配置后重启服务nginx timeout"></a>基于宝塔安装的github修改配置后重启服务<code>nginx timeout</code></h3><p><a href="https://blog.csdn.net/weixin_33978044/article/details/91423781" target="_blank" rel="noopener">GitLab修改配置后nginx无法启动</a><br>提示信息：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ gitlab-ctl restart</span><br><span class="line">ok: run: gitlab-workhorse: (pid 31048) 0s</span><br><span class="line">ok: run: logrotate: (pid 31057) 1s</span><br><span class="line">timeout: down: nginx: 1s, normally up, want up</span><br><span class="line">ok: run: postgresql: (pid 31499) 0s</span><br><span class="line">ok: run: redis: (pid 31517) 0s</span><br><span class="line">ok: run: sidekiq: (pid 31527) 0s</span><br><span class="line">ok: run: unicorn: (pid 31533) 0s</span><br></pre></td></tr></table></figure>
 <p>解决方法：<br>修改nginx启动文件<code>vi /opt/gitlab/sv/nginx/run</code>，修改完成后重启服务即可</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">exec chpst -P &#x2F;opt&#x2F;gitlab&#x2F;embedded&#x2F;sbin&#x2F;nginx -p &#x2F;var&#x2F;opt&#x2F;gitlab&#x2F;nginx</span><br><span class="line">修改为</span><br><span class="line">exec chpst -P &#x2F;opt&#x2F;gitlab&#x2F;embedded&#x2F;sbin&#x2F;gitlab-web -p &#x2F;var&#x2F;opt&#x2F;gitlab&#x2F;nginx</span><br></pre></td></tr></table></figure>
 
-<h3 id="gitlab绑定域名后原有的仓库url地址ip修改为域名"><a href="#gitlab绑定域名后原有的仓库url地址ip修改为域名" class="headerlink" title="gitlab绑定域名后原有的仓库url地址ip修改为域名"></a>gitlab绑定域名后原有的仓库url地址ip修改为域名</h3><p><a href="https://blog.csdn.net/weianlai/article/details/84264480" target="_blank" rel="noopener">参考博客</a><br>绑定域名后新建的仓库，url显示域名，但原有的仓库url仍然显示ip</p>
+<h3 id="gitlab绑定域名后原有的仓库url地址ip修改为域名"><a href="#gitlab绑定域名后原有的仓库url地址ip修改为域名" class="headerlink" title="gitlab绑定域名后原有的仓库url地址ip修改为域名"></a>gitlab绑定域名后原有的仓库url地址ip修改为域名</h3><p><a href="https://blog.csdn.net/weianlai/article/details/84264480" target="_blank" rel="noopener">GitLab服务器IP地址修改</a><br>绑定域名后新建的仓库，url显示域名，但原有的仓库url仍然显示ip</p>
 <p>解决方法：<br>修改<code>gitlab.yml</code>配置文件：</p>
 <figure class="highlight diff"><figcaption><span>/var/opt/gitlab/gitlab-rails/etc/gitlab.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">production: &amp;base</span><br><span class="line">  #</span><br><span class="line">  # 1. GitLab app settings</span><br><span class="line">  # <span class="comment">==========================</span></span><br><span class="line"></span><br><span class="line">  ## GitLab settings</span><br><span class="line">  gitlab:</span><br><span class="line">    ## Web server settings (note: host is the FQDN, do not include http://)</span><br><span class="line"><span class="deletion">-    host: 127.0.0.1</span></span><br><span class="line"><span class="addition">+    host: localhost</span></span><br><span class="line">    port: 9080</span><br><span class="line">    https: false</span><br></pre></td></tr></table></figure>
 <p>将host的ip修改为域名，执行<code>gitlab-ctl restart</code>重启Gitlab即可</p>
-<h3 id="git在windows上提交时会自动将LF替换成CRLF的问题"><a href="#git在windows上提交时会自动将LF替换成CRLF的问题" class="headerlink" title="git在windows上提交时会自动将LF替换成CRLF的问题"></a>git在windows上提交时会自动将LF替换成CRLF的问题</h3><p><a href="https://www.cnblogs.com/dahe1989/archive/2019/04/28/10784581.html" target="_blank" rel="noopener">参考博客</a></p>
+<h3 id="git在windows上提交时会自动将LF替换成CRLF的问题"><a href="#git在windows上提交时会自动将LF替换成CRLF的问题" class="headerlink" title="git在windows上提交时会自动将LF替换成CRLF的问题"></a>git在windows上提交时会自动将LF替换成CRLF的问题</h3><p><a href="https://www.cnblogs.com/dahe1989/archive/2019/04/28/10784581.html" target="_blank" rel="noopener">Git操作中crlf和lf冲突问题</a></p>
 <blockquote>
 <p><code>CR</code>：Carriage Return，<code>\r</code>，表示回车<br><code>LF</code>：Linefeed，<code>\n</code>，表示换行<br><code>CRLF</code>：Carriage Return &amp; Linefeed，<code>\r\n</code>，表示回车并换行</p>
 </blockquote>
@@ -2104,6 +2104,11 @@ table th:nth-of-type(1) {
 <li>执行<code>exit</code>退出设置</li>
 <li>通过账号<em>root/12345678</em>登录gitlab</li>
 </ol>
+<h3 id="linux登录出现-bash-4-2-的问题"><a href="#linux登录出现-bash-4-2-的问题" class="headerlink" title="linux登录出现-bash-4.2$的问题"></a>linux登录出现<code>-bash-4.2$</code>的问题</h3><p><a href="https://www.jianshu.com/p/d0f1cb0d83a4" target="_blank" rel="noopener">linux 命令终端提示符显示-bash-4.2#解决方法</a><br>xshell的远程登录linux服务器，终端提示符显示的是<code>-bash-4.2#</code>而不是<code>root@主机名</code>的问题，问题原因：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">用户目录下的配置文件丢失，具体文件为.bash_profile和.bashrc</span><br></pre></td></tr></table></figure>
+<p>解决方案：<br>从主默认文件重新拷贝一份配置文件到用户目录下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cp /etc/skel/.bashrc /root/</span><br><span class="line">cp /etc/skel/.bash_profile /root/</span><br></pre></td></tr></table></figure>
+<p>注销用户，重新登录即可恢复正常</p>
 ]]></content>
       <categories>
         <category>常见问题</category>
@@ -3316,8 +3321,8 @@ table th:nth-of-type(1) {
         <category>工具文档</category>
       </categories>
       <tags>
-        <tag>宝塔面板</tag>
         <tag>linux</tag>
+        <tag>宝塔面板</tag>
       </tags>
   </entry>
   <entry>
