@@ -98,6 +98,42 @@
       </tags>
   </entry>
   <entry>
+    <title>IntelliJ IDEA双击无响应</title>
+    <url>/39fe0d19/</url>
+    <content><![CDATA[<p>前言</p>
+<blockquote>
+<p>这里简单记录下<code>IntelliJ IDEA双击无响应</code>解决方案</p>
+</blockquote>
+<a id="more"></a>
+
+<h3 id="破解安装IDEA"><a href="#破解安装IDEA" class="headerlink" title="破解安装IDEA"></a>破解安装IDEA</h3><p><a href="https://tech.souyunku.com/?p=30970" target="_blank" rel="noopener">IntelliJ IDEA2020破解安装教程</a></p>
+<h3 id="双击无响应问题排查"><a href="#双击无响应问题排查" class="headerlink" title="双击无响应问题排查"></a>双击无响应问题排查</h3><p>编辑idea安装根目录bin下<code>idea.bat</code>脚本，在文件行尾增加<code>pause</code>，然后双击运行脚本</p>
+<figure class="highlight diff"><figcaption><span>C:\Program Files\JetBrains\IntelliJ IDEA 2020\bin</span></figcaption><table><tr><td class="code"><pre><span class="line">:: ---------------------------------------------------------------------</span><br><span class="line">:: Run the IDE.</span><br><span class="line">:: ---------------------------------------------------------------------</span><br><span class="line">SET OLD_PATH=%PATH%</span><br><span class="line">SET PATH=%IDE_BIN_DIR%;%PATH%</span><br><span class="line"></span><br><span class="line">"%JAVA_EXE%" %ALL_JVM_ARGS% -cp "%CLASS_PATH%" com.intellij.idea.Main %*</span><br><span class="line"></span><br><span class="line">SET PATH=%OLD_PATH%</span><br><span class="line"></span><br><span class="line"><span class="addition">+ pause</span></span><br></pre></td></tr></table></figure>
+<p>输入如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.</span><br><span class="line">Error opening zip file or JAR manifest missing : C:\Users\Public\.jetbrains\jetbrains-agent-v3.2.0.0f1f.69e</span><br><span class="line">Error occurred during initialization of VM</span><br><span class="line">agent library failed to init: instrument</span><br><span class="line">请按任意键继续. . .</span><br></pre></td></tr></table></figure>
+<p><img src="/images/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/2020-10-12_111427.png" alt=""></p>
+<p>由提示信息可知，因为<code>.jetbrains\jetbrains-agent-v3.2.0.0f1f.69e</code>被误删或其他原因导致破解文件不存在造成的</p>
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>编辑idea安装根目录bin下idea64.exe.vmoptions文件，删除最后一行的破解信息<code>-javaagent:C:\Users\Public\.jetbrains\...</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-Xms128m</span><br><span class="line">-Xmx2019m</span><br><span class="line">-XX:ReservedCodeCacheSize&#x3D;240m</span><br><span class="line">-XX:+UseConcMarkSweepGC</span><br><span class="line">-XX:SoftRefLRUPolicyMSPerMB&#x3D;50</span><br><span class="line">-ea</span><br><span class="line">-XX:CICompilerCount&#x3D;2</span><br><span class="line">-Dsun.io.useCanonPrefixCache&#x3D;false</span><br><span class="line">-Djdk.http.auth.tunneling.disabledSchemes&#x3D;&quot;&quot;</span><br><span class="line">-XX:+HeapDumpOnOutOfMemoryError</span><br><span class="line">-XX:-OmitStackTraceInFastThrow</span><br><span class="line">-Djdk.attach.allowAttachSelf&#x3D;true</span><br><span class="line">-Dkotlinx.coroutines.debug&#x3D;off</span><br><span class="line">-Djdk.module.illegalAccess.silent&#x3D;true</span><br><span class="line">-javaagent:C:\Users\Public\.jetbrains\jetbrains-agent-v3.2.0.0f1f.69e&#x3D;6e68f9eb,LFq51qqupnaiTNn39w6zATiOTxZI2JYuRJEBlzmUDv4zeeNlXhMgJZVb0q5QkLr+CIUrSuNB7ucifrGXawLB4qswPOXYG7+ItDNUR&#x2F;9UkLTUWlnHLX07hnR1USOrWIjTmbytcIKEdaI6x0RskyotuItj84xxoSBP&#x2F;iRBW2EHpOc</span><br></pre></td></tr></table></figure>
+<p>修改完成后，重新启动idea即可正常打开，但需要重新破解</p>
+<h3 id="破解教程"><a href="#破解教程" class="headerlink" title="破解教程"></a>破解教程</h3><p>JetBrains 2020.2 版本激活程序下载，或参考<a href="#破解安装IDEA">破解教程</a></p>
+<ul>
+<li>不限速下载：<a href="https://souyunku.lanzous.com/b0aki3kna" target="_blank" rel="noopener">蓝奏云</a></li>
+<li>备用下载：<a href="https://pan.baidu.com/s/14xmwiqxU12GoP-4qH6HJDw" target="_blank" rel="noopener">百度云</a> 提取码：shqt</li>
+</ul>
+<p>打开idea选择试用后，将破解文件<code>jetbrains-agent-latest.zip</code>拖入idea窗口，输入安装参数安装重启即可</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">LFq51qqupnaiTNn39w6zATiOTxZI2JYuRJEBlzmUDv4zeeNlXhMgJZVb0q5QkLr+CIUrSuNB7ucifrGXawLB4qswPOXYG7+ItDNUR&#x2F;9UkLTUWlnHLX07hnR1USOrWIjTmbytcIKEdaI6x0RskyotuItj84xxoSBP&#x2F;iRBW2EHpOc</span><br></pre></td></tr></table></figure>
+<p><img src="/images/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/2020-10-12_120650.png" alt=""></p>
+<p>查看注册信息，<code>Help-&gt;About/Register</code>，已经成功激活至2089年<br><img src="/images/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/2020-10-12_120847.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>常见问题</category>
+      </categories>
+      <tags>
+        <tag>idea</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>linux常用命令</title>
     <url>/fe4ef317/</url>
     <content><![CDATA[<p>前言</p>
@@ -1355,9 +1391,9 @@ table th:nth-of-type(6) {
 <td align="center"><i class="fa fa-star"></i></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td><a href=""></a></td>
-<td align="center"><code>TODO</code></td>
+<td align="center">637</td>
+<td><a href="https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/" target="_blank" rel="noopener">二叉树的层平均值</a></td>
+<td align="center"><code>bfs</code></td>
 <td align="center">简单</td>
 <td align="center">2020-09-12</td>
 <td align="center"><i class="fa fa-star"></i></td>
@@ -1451,8 +1487,8 @@ table th:nth-of-type(6) {
 <td align="center"><i class="fa fa-star"></i></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td><a href=""></a></td>
+<td align="center">501</td>
+<td><a href="https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/" target="_blank" rel="noopener">二叉搜索树中的众数</a></td>
 <td align="center"><code>TODO</code></td>
 <td align="center">简单</td>
 <td align="center">2020-09-24</td>
@@ -1467,12 +1503,12 @@ table th:nth-of-type(6) {
 <td align="center"><i class="fa fa-star"></i></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td><a href=""></a></td>
-<td align="center"><code>TODO</code></td>
-<td align="center">简单</td>
+<td align="center">113</td>
+<td><a href="https://leetcode-cn.com/problems/path-sum-ii/" target="_blank" rel="noopener">路径总和 II</a></td>
+<td align="center"><code>dfs</code></td>
+<td align="center">中等</td>
 <td align="center">2020-09-26</td>
-<td align="center"><i class="fa fa-star"></i></td>
+<td align="center"><i class="fa fa-star-half"></i></td>
 </tr>
 <tr>
 <td align="center"></td>
@@ -3657,6 +3693,15 @@ table th:nth-of-type(1) {
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ journalctl --vacuum-size=500M</span><br></pre></td></tr></table></figure>
 <p>直接删除<code>/var/log/journal/</code>目录下的日志文件</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ rm -rf /var/<span class="built_in">log</span>/journal/20200220105402131453637367482142/system.journal</span><br></pre></td></tr></table></figure>
+
+<h3 id="挂载共享文件夹"><a href="#挂载共享文件夹" class="headerlink" title="挂载共享文件夹"></a>挂载共享文件夹</h3><ol>
+<li>设置选项开启共享</li>
+<li>安装<code>VMWare Tools</code></li>
+<li>查看共享文件夹<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ vmware-hgfsclient</span><br></pre></td></tr></table></figure></li>
+<li>挂载共享文件<code>linux</code>到<code>workspace</code>下<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ vmhgfs-fuse .host:/linux ~/workspace/</span><br></pre></td></tr></table></figure></li>
+<li>若出现错误<code>Error: cannot mount filesystem: No such device</code>，安装<code>open-vm-tools-devel</code><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yum install open-vm-tools-devel -y</span><br></pre></td></tr></table></figure></li>
+<li>重复步骤4即可</li>
+</ol>
 ]]></content>
       <categories>
         <category>工具文档</category>
