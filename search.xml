@@ -3009,8 +3009,8 @@ table th:nth-of-type(1) {
         <category>Hexo博客</category>
       </categories>
       <tags>
-        <tag>github</tag>
         <tag>hexo</tag>
+        <tag>github</tag>
         <tag>coding</tag>
       </tags>
   </entry>
@@ -4560,7 +4560,7 @@ table th:nth-of-type(1) {
 </li>
 <li><p>恢复备份</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 停止连接数据库的进程</span></span><br><span class="line">$ sudo gitlab-ctl stop unicorn</span><br><span class="line">$ sudo gitlab-ctl stop sidekiq</span><br><span class="line"><span class="comment"># 拷贝备份至默认路径</span></span><br><span class="line">$ cp 1587048780_2020_04_16_12.9.2_gitlab_backup.tar /var/opt/gitlab/backups/</span><br><span class="line"><span class="comment"># 给git用户授权</span></span><br><span class="line">$ chown git:git 1587048780_2020_04_16_12.9.2_gitlab_backup.tar</span><br><span class="line"><span class="comment"># 恢复1587048780这个备份文件，将覆盖GitLab数据库！</span></span><br><span class="line">$ sudo gitlab-rake gitlab:backup:restore BACKUP=1587048780</span><br><span class="line"><span class="comment"># 重启 GitLab</span></span><br><span class="line">$ sudo gitlab-ctl restart</span><br><span class="line"><span class="comment"># 检查 GitLab</span></span><br><span class="line">$ sudo gitlab-rake gitlab:check SANITIZE=<span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<p>注：恢复后可能出现web端点击项目报错<code>500</code>，则需要将如下配置文件拷贝到恢复环境上，重启服务即可</p>
+<p>注：恢复后可能出现web端点击项目报错<code>500</code>，则需要将如下配置文件拷贝到恢复环境上，然后<code>gitlab-ctl reconfigure &amp; gitlab-ctl restart</code>即可</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;etc&#x2F;gitlab&#x2F;gitlab.rb</span><br><span class="line">&#x2F;etc&#x2F;gitlab&#x2F;gitlab-secrets.json</span><br></pre></td></tr></table></figure>
 
 </li>
